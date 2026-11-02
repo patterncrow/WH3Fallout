@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/LeyZee/the-season-of-revelation/blob/main/02-scripts/lire_esf.py",
+  "upstream_blob_sha": "e919036b4bbf4b219cf8078c2f76015b9cdb4759",
+  "license": "MIT",
+  "retrieved": "2026-11-02",
+  "sha256": "A91D8AA97160A2761E626371B0F1153A818D14E3B0BA828E90FB2C9976827D2D",
+  "usage": "仅调用ESF转换和解析函数，不运行上游命令行，不采用其游戏配置修改脚本",
+  "palette_tga": {
+    "source": "https://github.com/LeyZee/the-season-of-revelation/blob/main/02-scripts/preparer_minicarte.py",
+    "function": "ecrit_tga_palette",
+    "license": "MIT",
+    "retrieved": "2026-11-02",
+    "source_sha256": "5cf7bca71448121b5b1dcdb1500c8c0b5c186aa8c19c2b9bd0c60f23778790ec",
+    "adaptation": "仅提取该函数，函数正文原样保留；不引入上游的仿射地图制作及游戏路径操作"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "batch_id": "ENG-20261102-01",
+  "time": "2026-11-02T12:07:08.790597+08:00",
+  "migration": [
+    {
+      "from": "prototype/__pycache__",
+      "to": "work/legacy-python-cache",
+      "source_files": []
+    },
+    {
+      "from": "prototype/build",
+      "to": "work/legacy-20261102",
+      "source_files": []
+    },
+    {
+      "from": "prototype/build_map.ps1",
+      "to": "scripts/build_map.ps1",
+      "source_files": [
+        {
+          "path": "build_map.ps1",
+          "sha256": "54952683edced168b3abfe757b19727ad2c1493ce9265438410f15fddf684491"
+        }
+      ]
+    },
+    {
+      "from": "prototype/build_pack.py",
+      "to": "scripts/build_pack.py",
+      "source_files": [
+        {
+          "path": "build_pack.py",
+          "sha256": "d937822e40ccc47948172832a25d133d484a4d8be0f3118e923b50c2c3d93a71"
+        }
+      ]
+    },
+    {
+      "from": "prototype/build_starting_state.py",
+      "to": "scripts/build_starting_state.py",
+      "source_files": [
+        {
+          "path": "build_starting_state.py",
+          "sha256": "10c368681374f2cb7084e5020e856b8033b2eb6457dc11be4ff5bcc04bd9399f"
+        }
+      ]
+    },
+    {
+      "from": "prototype/campaign_records.py",
+      "to": "scripts/campaign_records.py",
+      "source_files": [
+        {
+          "path": "campaign_records.py",
+          "sha256": "e6dd81b2d2b59cd77e41b59aa8b8b500875948ed961ca84e6a67297045246bc2"
+        }
+      ]
+    },
+    {
+      "from": "prototype/convert_map.py",
+      "to": "scripts/convert_map.py",
+      "source_files": [
+        {
+          "path": "convert_map.py",
+          "sha256": "cc9ddd2a41d7faf3a7fbe3f83c4106de3a32e9c0840c4587355e1ac6262ae8a5"
+        }
+      ]
+    },
+    {
+      "from": "prototype/make_map_images.py",
+      "to": "scripts/make_map_images.py",
+      "source_files": [
+        {
+          "path": "make_map_images.py",
+          "sha256": "dfe3f25fd246cbee55881b05278fd440aac84dd7c447c16862615ab00781bf2a"
+        }
+      ]
+    },
+    {
+      "from": "prototype/observe_game.ps1",
+      "to": "scripts/observe_game.ps1",
+      "source_files": [
+        {
+          "path": "observe_game.ps1",
+          "sha256": "2d5ed6014a866380d6398be95d5375efcb5d64ce6b95c101ec46b6e0c9b65f5e"
+        }
+      ]
+    },
+    {
+      "from": "prototype/process_map.ps1",
+      "to": "scripts/process_map.ps1",
+      "source_files": [
+        {
+          "path": "process_map.ps1",
+          "sha256": "baeba4d1ebe43b6cb64185faec5070d4ec0178b259c2b23734f7fac684e12cab"
+        }
+      ]
+    },
+    {
+      "from": "prototype/process_map.py",
+      "to": "scripts/process_map.py",
+      "source_files": [
+        {
+          "path": "process_map.py",
+          "sha256": "dbc03ea3b41766053677fe67df22880ddfa1e2e709a17593a1037da39f146b9f"
+        }
+      ]
+    },
+    {
+      "from": "prototype/rpfm_rpc.py",
+      "to": "scripts/rpfm_rpc.py",
+      "source_files": [
+        {
+          "path": "rpfm_rpc.py",
+          "sha256": "cf9e6ca153ccd059d73761df61e735c9533f0ea8dbae952cf1ad04a52c9f422a"
+        }
+      ]
+    },
+    {
+      "from": "prototype/script",
+      "to": "content/script",
+      "source_files": [
+        {
+          "path": "campaign/fnvtw_prototype/scripting.lua",
+          "sha256": "20eb3d89b29213d782020c6102239a1d173e71985ce20b67c596caccb2fa8c82"
+        }
+      ]
+    },
+    {
+      "from": "prototype/tests",
+      "to": "tests",
+      "source_files": [
+        {
+          "path": "test_campaign_records.py",
+          "sha256": "e4fb00f5a0dded171d6ac347a4b2eb5253b7a39e5df337bd6286a7ea098ab5ca"
+        },
+        {
+          "path": "test_esf_conversion.py",
+          "sha256": "949d6243567c75224433f2cd9138d5a8f5fca78ac1a4d8d2c019c7e0b8d83aff"
+        },
+        {
+          "path": "test_map_processing.py",
+          "sha256": "751fa8a39ee4ead494a133395d00f5a74fc1077f11e8a87fb1cc40dcc1da1748"
+        },
+        {
+          "path": "test_map_roundtrip.py",
+          "sha256": "c45402cbb29e4e8283fccd0beadaf351f30d1127d7c1d5f9f4ce1f2b0a364a51"
+        },
+        {
+          "path": "test_pack_roundtrip.py",
+          "sha256": "421c321dcf59031ea723a5d8e53886bb49ed379daaccfbdb153b93d7d3647f00"
+        },
+        {
+          "path": "test_rpfm_rpc.py",
+          "sha256": "6bba811aeb1fabda0c87346458f63b0c545fc9617f5c2604e2b6c53c84440877"
+        },
+        {
+          "path": "test_starting_state.py",
+          "sha256": "9b000180cb84b0bf7959d180d14c036b0179dc290c143d868a586b59d34032b2"
+        }
+      ]
+    },
+    {
+      "from": "prototype/vendor",
+      "to": "scripts/vendor",
+      "source_files": [
+        {
+          "path": "LICENSE-LeyZee.txt",
+          "sha256": "8aad4a1b79d2269d95d01c1a0dd35d8eee0d6ccc3c635eadf829b8bec8647abf"
+        },
+        {
+          "path": "lire_esf.py",
+          "sha256": "a91d8aa97160a2761e626371b0f1153a818d14e3b0ba828e90fb2c9976827d2d"
+        },
+        {
+          "path": "palette_tga.py",
+          "sha256": "7aa73fc7ef75b898420f9d307300e6d72692b19039c7dff7cdd1627531982543"
+        },
+        {
+          "path": "来源.json",
+          "sha256": "8566705f0fc68c027dc7988e056751141fdb7f76237c0e0d5ac22d14d8c82b98"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "历史报告正文中的原路径不改写；使用本表追溯。",
+    "旧AK副本保留用于证据查阅；其内部路径和迁移后工具复现尚未验证。",
+    "未改变游戏目录、启动配置或用户存档。"
+  ],
+  "legacy_artifacts": [
+    {
+      "path": "work/legacy-20261102/fnvtw_prototype_compiled.pack",
+      "bytes": 7579977,
+      "sha256": "872a44b9cb821b05b36a17abf2f690387704b1fa03016301c8c34526e37692cd"
+    },
+    {
+      "path": "work/legacy-20261102/fnvtw_prototype_map_stage_v2.pack",
+      "bytes": 229655,
+      "sha256": "0ccb020f40db37ec50cc047cb99c90659e48a0c1e3a076261cb7bcc258269e17"
+    },
+    {
+      "path": "work/legacy-20261102/fnvtw_prototype_starting_state_v3.pack",
+      "bytes": 247104,
+      "sha256": "8744b472f855c96b4f2dbcd85e8e5da166481dab67668ee49ea174363eaa949a"
+    },
+    {
+      "path": "work/legacy-20261102/native-startpos-attempt.json",
+      "bytes": 1211,
+      "sha256": "bf32cc778bf92006e27e31ed4b46b296173ed7a8a4bae3232834fed24ade60be"
+    },
+    {
+      "path": "work/legacy-20261102/native-startpos-attempt-2.json",
+      "bytes": 432,
+      "sha256": "65e743c0c9c19733cd1441cb6c83d6ba9ea8c2c2ecc7ce000dbe2fd6f585f8ee"
+    },
+    {
+      "path": "work/legacy-20261102/startpos-validation.json",
+      "bytes": 114,
+      "sha256": "4f5355f15e595d5853bd34b16ad12f2107702b01cc8666a33b1b9c5d12675b89"
+    },
+    {
+      "path": "work/legacy-20261102/人工测试记录/NCR载入后截图.png",
+      "bytes": 2551913,
+      "sha256": "8530054c0f12ebd39bd09d836e50d42ec198cd3df68c0cd1e23c4efe5ec5157a"
+    }
+  ],
+  "legacy_manifest": "work/legacy-20261102/manifest.json",
+  "record_storage": "迁移摘要与关键文件摘要纳入Git，原始二进制及运行证据只保存在本机work目录。",
+  "cache_policy": "缓存随原目录保留在本机，但不属于源文件快照或Git提交。"
+}

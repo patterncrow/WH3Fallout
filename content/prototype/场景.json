@@ -1,0 +1,185 @@
+{
+  "id": "fnvtw_prototype",
+  "status": "technical-placeholder",
+  "prototype_campaign": "wh3_main_combi",
+  "playable_area_index": "2140000001",
+  "map": {
+    "id": "fnvtw_prototype_map",
+    "width": 64,
+    "height": 64,
+    "regions": [
+      {
+        "g": 117,
+        "key": "fnvtw_ncr_town",
+        "b": 70,
+        "r": 64
+      },
+      {
+        "g": 199,
+        "key": "fnvtw_legion_town",
+        "b": 210,
+        "r": 108
+      },
+      {
+        "g": 160,
+        "key": "fnvtw_enclave_town",
+        "b": 70,
+        "r": 64
+      }
+    ],
+    "settlements": [
+      [
+        16,
+        20
+      ],
+      [
+        48,
+        20
+      ],
+      [
+        32,
+        53
+      ]
+    ]
+  },
+  "actors": [
+    {
+      "label": "ncr",
+      "prototype_faction": "wh_main_emp_empire",
+      "region": "fnvtw_ncr_town",
+      "position": [
+        16,
+        14
+      ],
+      "playable": true,
+      "faction_id": "2140100001",
+      "region_id": "2140100101",
+      "character_id": "2140100201",
+      "settlement_id": "2140100301",
+      "general_option_id": "2140100401",
+      "runtime_faction_index": 2140400001,
+      "slot_id_base": 2140200000,
+      "starting_units": [
+        {
+          "prototype_id": "1097723982",
+          "prototype_unit": "wh_main_emp_inf_halberdiers",
+          "id": "2140300000"
+        },
+        {
+          "prototype_id": "126504658",
+          "prototype_unit": "wh_main_emp_inf_swordsmen",
+          "id": "2140300001"
+        },
+        {
+          "prototype_id": "1814862110",
+          "prototype_unit": "wh_main_emp_inf_swordsmen",
+          "id": "2140300002"
+        },
+        {
+          "prototype_id": "1831780791",
+          "prototype_unit": "wh_main_emp_inf_handgunners",
+          "id": "2140300003"
+        },
+        {
+          "prototype_id": "588087705",
+          "prototype_unit": "wh_main_emp_cav_reiksguard",
+          "id": "2140300004"
+        },
+        {
+          "prototype_id": "657458566",
+          "prototype_unit": "wh_main_emp_inf_handgunners",
+          "id": "2140300005"
+        }
+      ]
+    },
+    {
+      "label": "legion",
+      "prototype_faction": "wh_dlc08_nor_norsca",
+      "region": "fnvtw_legion_town",
+      "position": [
+        48,
+        14
+      ],
+      "playable": true,
+      "faction_id": "2140100002",
+      "region_id": "2140100102",
+      "character_id": "2140100202",
+      "settlement_id": "2140100302",
+      "general_option_id": "2140100402",
+      "runtime_faction_index": 2140400002,
+      "slot_id_base": 2140210000,
+      "starting_units": [
+        {
+          "prototype_id": "1194456562",
+          "prototype_unit": "wh_main_nor_inf_chaos_marauders_1",
+          "id": "2140300100"
+        },
+        {
+          "prototype_id": "1250269255",
+          "prototype_unit": "wh_dlc08_nor_inf_marauder_berserkers_0",
+          "id": "2140300101"
+        },
+        {
+          "prototype_id": "1671159626",
+          "prototype_unit": "wh_dlc08_nor_inf_marauder_champions_0",
+          "id": "2140300102"
+        },
+        {
+          "prototype_id": "1765938864",
+          "prototype_unit": "wh_dlc08_nor_inf_marauder_berserkers_0",
+          "id": "2140300103"
+        },
+        {
+          "prototype_id": "1943054706",
+          "prototype_unit": "wh_main_nor_cav_marauder_horsemen_1",
+          "id": "2140300104"
+        },
+        {
+          "prototype_id": "44906568",
+          "prototype_unit": "wh_main_nor_cav_marauder_horsemen_1",
+          "id": "2140300105"
+        }
+      ]
+    },
+    {
+      "label": "local_guard",
+      "prototype_faction": "wh_main_grn_greenskins",
+      "region": "fnvtw_enclave_town",
+      "position": [
+        32,
+        53
+      ],
+      "playable": false,
+      "faction_id": "2140100003",
+      "region_id": "2140100103",
+      "character_id": "2140100203",
+      "settlement_id": "2140100303",
+      "general_option_id": "2140100403",
+      "runtime_faction_index": 2140400003,
+      "slot_id_base": 2140220000,
+      "starting_units": [
+        {
+          "prototype_id": "1008344680",
+          "prototype_unit": "wh_main_grn_inf_orc_boyz",
+          "id": "2140300200"
+        },
+        {
+          "prototype_id": "1090110201",
+          "prototype_unit": "wh3_main_grn_inf_orc_boyz_spear_shield",
+          "id": "2140300201"
+        },
+        {
+          "prototype_id": "1173757074",
+          "prototype_unit": "wh3_main_grn_inf_orc_boyz_spear_shield",
+          "id": "2140300202"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "仅技术样板；正式玩法仍以责任设计文档为准。",
+    "兵表固定为迁移前选定的原版行ID与单位类型；不再随原版行排序选前六项。",
+    "地图地形配方仍为固定64×64；变更尺寸须同步修改配方。",
+    "建筑槽位ID仍含AK原始表行号，正式化前须改成显式对应表。"
+  ]
+}

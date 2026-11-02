@@ -1,0 +1,22 @@
+# 生成物、隔离工具副本与测试运行记录
+/work/
+/releases/
+/工程/本机配置.json
+
+# Python 缓存与本地虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 本机配置及凭据；示例配置可以纳入版本管理
+.env
+.env.*
+!.env.example
+.git-credentials
+
+# 编辑器临时文件
+*.swp
+*.swo
+~$*

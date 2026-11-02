@@ -1,0 +1,12 @@
+{
+  "game_root": "E:/SteamLibrary/steamapps/common/Total War WARHAMMER III",
+  "assembly_kit": "E:/SteamLibrary/steamapps/common/Total War WARHAMMER III/assembly_kit",
+  "caime_dir": "E:/WH3ModTools/CampaignMapToolkit/current",
+  "powershell": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+  "rpfm_url": "http://127.0.0.1:45127/mcp",
+  "declared_versions": {
+    "game": "9.0.4.0 / Steam build 25961564",
+    "rpfm": "5.3.3",
+    "caime": "1.1.0"
+  }
+}

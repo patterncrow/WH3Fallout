@@ -1,0 +1,13 @@
+* text=auto
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.lua text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+
+# 保持第三方原文件字节及来源摘要，避免签入签出时改换行。
+scripts/vendor/** -text
