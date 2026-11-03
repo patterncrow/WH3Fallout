@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T09:44:27.670205+08:00",
-  "batch_id": "GOV-20261103-FULL",
-  "phase": "baseline_governed_technical_tests_paused",
-  "objective": "五对话及领域正文已完成本轮治理；准备按依赖接续设计，技术测试仍暂停。",
+  "updated_at": "2026-11-03T10:09:22.465245+08:00",
+  "batch_id": "GOV-20261103-FEEDBACK",
+  "phase": "governance-policy-refined",
+  "objective": "框架与治理技能1.1优化已完成，本批仅提交，后续由用户推送；技术测试继续暂停。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
@@ -125,7 +125,8 @@
       "duplicate_ak_bytes_removed": 3166714685,
       "communication_transients_removed": 15
     },
-    "preserved": "96份种族及派系目录、用户决定、唯一编辑输入、默认夹具、编译候选、before备份及引用证据；两份有独立价值的历史材料保留。"
+    "preserved": "96份种族及派系目录、用户决定、唯一编辑输入、默认夹具、编译候选、before备份及引用证据；两份有独立价值的历史材料保留。",
+    "current_policy_version": "1.1"
   },
   "handoff": {
     "next_steps": [
@@ -133,13 +134,21 @@
       "技术仅准备和核对关键输入；用户明确恢复前不运行制作或游戏试验。",
       "豪斯出征身份、主教个人形态及其他实质方向分歧仍由用户复阅；无关内容可继续。"
     ],
-    "operator_action": "当前无需操作游戏；提交推送结果见本批交付记录及最终回复。",
+    "operator_action": "本批提交后由用户手动推送；无需操作游戏。后续业务安排见A建议，尚未派发。",
     "restoration_boundary": "本轮只清理项目工作区内已核明的冗余稿与复制缓存，未动游戏、存档或外部配置。",
     "version_control": {
-      "requested": "commit_and_push",
-      "branch": "main",
-      "base_commit": "215ace9",
-      "delivery_record": "work/GOV-20261103-FULL/提交结果.json"
+      "last_delivery": {
+        "commit": "632ce8fcc3bbb141df5f0e21d4f148a871875907",
+        "branch": "main",
+        "status": "user_pushed_remote_verified",
+        "record": "work/GOV-20261103-FULL/提交结果.json"
+      },
+      "current_batch": {
+        "id": "GOV-20261103-FEEDBACK",
+        "authorization": "commit_only",
+        "push": "由用户执行",
+        "lookup": "Git提交标题：治理：完善框架与项目治理技能收口规则"
+      }
     }
   },
   "documentation_policy": {
