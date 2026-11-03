@@ -1,97 +1,150 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T12:22:44.144508+08:00",
-  "batch_id": "ENG-20261102-01",
-  "phase": "engineering-baseline",
-  "objective": "按工程框架重组目录并建立本地版本基线；暂停玩法扩展、游戏测试和卡死调查。",
+  "updated_at": "2026-11-03T09:44:27.670205+08:00",
+  "batch_id": "GOV-20261103-FULL",
+  "phase": "baseline_governed_technical_tests_paused",
+  "objective": "五对话及领域正文已完成本轮治理；准备按依赖接续设计，技术测试仍暂停。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
     "history": "工程/工程日志.jsonl",
-    "historical_test_results": "文档/可行性验证/首批可行性验证方案.md#八独立战役样板执行记录2026-11-02"
+    "historical_test_results": "文档/可行性验证/首批可行性验证方案.md#八独立战役样板执行记录2026-11-02",
+    "collaboration": "项目工程实施框架.md#十一多对话实施与整合2026-11-02确认",
+    "governance": "项目工程实施框架.md",
+    "governance_skill": ".agents/skills/wh3-project-governance/SKILL.md"
   },
   "candidate": {
-    "build_id": "legacy-20261102",
-    "status": "historical_partial_validation_not_release",
-    "artifact": "work/legacy-20261102/fnvtw_prototype_compiled.pack",
-    "fingerprints": "工程/目录迁移.json",
-    "manifest": "work/legacy-20261102/manifest.json",
-    "source_provenance": "重组前样板；当前源未重建该整合包。"
+    "input_build": "eng02-start-002",
+    "native_run": "eng04-native-001",
+    "artifact": "work/eng04-native-001/fnvtw_eng04_compiled.pack",
+    "sha256": "bb71c599097a3981bfab4ab9dc716faae86eb6f6a4fc77129b77f1a7cc6debc2",
+    "status": "basic_ncr_user_verified_not_full_acceptance",
+    "native_import": "work/eng04-native-001/native-import.json",
+    "restoration": "work/eng04-native-001/restoration.json",
+    "build_id": "eng04-native-001",
+    "manual_evidence": "work/eng06-playtest-001/manual-result.json"
   },
-  "latest_build_attempt": null,
   "work_items": [
     {
-      "id": "ENG01",
-      "task": "目录归位、参数抽取、工程记录与统一制作入口",
-      "status": "implemented_not_runtime_verified"
+      "task": "整体工程与关键任务",
+      "owner": "本对话",
+      "entry": "项目工程实施框架.md",
+      "status": "本轮治理完成，等待后续具体任务"
     },
     {
-      "id": "ENG02",
-      "task": "新入口小范围复现与迁移后定向测试",
-      "status": "not_run_requires_explicit_request"
+      "task": "种族与派系设计",
+      "owner": "领域原聊天",
+      "entry": "文档/功能设计/设计总纲.md",
+      "status": "本轮治理完成，等待后续具体任务",
+      "owner_thread": "01a19bfd-f717-7061-ad97-fe16fa4f13e3"
     },
     {
-      "id": "ENG03",
-      "task": "收拢原生开局生成、导入、部署与恢复",
-      "status": "not_implemented"
+      "task": "世界与战役设计",
+      "owner": "领域原聊天",
+      "entry": "文档/功能设计/地图/战役地图设计.md",
+      "status": "本轮治理完成，等待后续具体任务",
+      "owner_thread": "01a19cdd-4b2f-77d1-9b6b-743ad8aea4f1"
     },
     {
-      "id": "P01-visual",
-      "task": "64×64逻辑地图与视觉地形匹配",
-      "status": "unresolved"
+      "task": "战斗装备与人物构筑",
+      "owner": "领域原聊天",
+      "entry": "文档/功能设计/战斗/通用战斗与能力设计.md",
+      "status": "本轮治理完成，等待后续具体任务",
+      "owner_thread": "01a19cde-08c9-7e91-aa7f-a9ef377bed0f"
     },
     {
-      "id": "P09-stability",
-      "task": "用户报告卡死的根因调查",
-      "status": "deferred_by_user"
+      "task": "技术实现与验证",
+      "owner": "领域原聊天",
+      "entry": "文档/技术设计/技术概要设计.md",
+      "status": "文档治理完成，技术执行仍暂停",
+      "owner_thread": "01a19cde-d289-7400-b710-220be9d3dd84"
     }
   ],
-  "verification_policy": "本轮不构建、不运行测试、不启动游戏；仅静态自检。新增案例与迁移后的旧案例均未重跑。",
+  "completed_round": {
+    "id": "COORD-20261102-01",
+    "status": "design_integrated_runtime_pending",
+    "review": "work/codex-coordination/a-master-integration-review.json"
+  },
+  "verification_evidence": {
+    "native_import": "work/eng04-native-001/native-import.json",
+    "basic_ncr": "work/eng06-playtest-001/manual-result.json",
+    "units_barrier": "work/tech-sweep-playtest-001/manual-result.json",
+    "choice_roundtrip": "work/tech-campaign-playtest-001/manual-result.json",
+    "technical_questions": "work/tech-sweep-20261102-01/results.json",
+    "note": "局部样本证据，不证明当前源码全量重建、完整玩法或平衡通过。"
+  },
+  "verification_policy": "用户暂停游戏技术测试仍有效。治理与提交授权不恢复构建、测试、RPFM、部署或游戏；本轮只做静态自检。",
+  "environment_policy": "用户认为本机内存不足，且普通游玩也曾闪退；按用户要求停止采样和调查，正常推进开发。",
+  "temporary_environment": {
+    "latest_session": "work/tech-campaign-playtest-001/manifest.json",
+    "latest_restoration": "work/tech-campaign-playtest-001/restoration.json",
+    "status": "本次试验五个文件已按报告恢复到before状态；本轮未重新部署或核验外部环境。",
+    "legacy_boundary": "更早的测试包、user.script和本项目松散文件可能在before中；本次恢复不等于全局清理，交接时按清单只读核对，不擅自删除。"
+  },
   "local_evidence": {
     "path": "work/legacy-20261102",
     "git_tracked": false,
     "independent_backup": "尚未建立独立备份；旧证据保存在当前磁盘。"
   },
-  "temporary_environment": [
-    {
-      "target": "%APPDATA%/The Creative Assembly/Warhammer3/scripts/user.script.txt",
-      "observed_at": "2026-11-02T12:14:52.752783+08:00",
-      "current": "mod fnvtw_prototype_playtest.pack;",
-      "original": "测试前文件不存在；来源为先前测试记录，不是本轮重新观测。",
-      "action_this_batch": "只读核对，未修改；游戏测试临时设置仍保留。",
-      "restore": "结束该次测试时先核对是否有用户新增内容；确认仍为该单包内容后，恢复测试前不存在状态。"
-    },
-    {
-      "target": "<game_root>/data/fnvtw_prototype_playtest.pack",
-      "bytes": 7579977,
-      "action_this_batch": "只读定位，未替换；与v2/v3诊断包仍保留。",
-      "restore": "按具体文件和来源恢复；不清理其他Mod或存档。"
-    },
-    {
-      "target": "<game_root>/data/campaign_maps/fnvtw_prototype_map 与 data/campaigns/fnvtw_prototype",
-      "action_this_batch": "先前原生生成可能遗留松散文件；本轮未逐项核实，也未修改。",
-      "restore": "恢复测试前必须先盘点文件、来源和占用，不能直接递归删除。"
-    }
-  ],
-  "handoff": {
-    "game_process": "本轮未检查或操作；不沿用旧PID推断当前状态。",
-    "next_steps": [
-      "账号与推送由用户处理；本轮仅做本地提交。",
-      "收到明确验证要求后，先运行纯Python定向案例，再按需要验证RPFM／CAIME阶段。",
-      "新入口目前止于开局数据输入包；原生编译和人工游戏验收仍是独立步骤。",
-      "新流程复现成功前，不回收历史包、AK副本或截图日志。"
+  "technical_sweep": {
+    "status": "paused_by_user",
+    "results": "work/tech-sweep-20261102-01/results.json",
+    "next_control": "work/tech-sweep-campaign-001/fnvtw_capacity_control.pack",
+    "remaining": [
+      "视觉地图与战场制作链",
+      "自制资产导入",
+      "容量实际招募及样板姿态问题",
+      "音频编译与听音",
+      "深隧及完整入口行为"
     ],
-    "decisions_needed": [],
-    "static_review": {
-      "python_syntax_files": 19,
-      "json_and_jsonl": "语法自检完成",
-      "document_file_links": "现行文档文件链接可定位",
-      "powershell_bom": "保留",
-      "vendor_bytes": "与迁移前摘要一致，暂存时不转换换行",
-      "staged_files": 61,
-      "builds_run": false,
-      "tests_run": false,
-      "game_run": false
+    "resume_condition": "用户明确恢复或指定技术执行任务，先核对真实环境并登记资源独占。"
+  },
+  "shared_execution_resources": {
+    "owner": null,
+    "status": "no_execution_assigned",
+    "scope": "RPFM后端、原生生成、游戏部署及启动配置",
+    "note": "本轮未操作或重新核验外部进程；执行前须只读核对，不能由登记推断实时空闲。"
+  },
+  "cross_thread_coordination": {
+    "mode": "A_master_four_original_workers",
+    "status": "tested_and_used_for_business",
+    "guide": "工程/跨对话协作.md",
+    "evidence": "work/codex-coordination/验收结果.json",
+    "last_review": "work/codex-coordination/a-master-integration-review.json",
+    "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。"
+  },
+  "governance_baseline": {
+    "version": "1.0",
+    "status": "full_governance_completed",
+    "report": "work/GOV-20261103-FULL/治理结果.json",
+    "checks": "work/GOV-20261103-FULL/静态检查.json",
+    "cleanup": "work/GOV-20261103-FULL/清理记录.json",
+    "summary": {
+      "old_documents_removed": 15,
+      "duplicate_ak_files_removed": 13169,
+      "duplicate_ak_bytes_removed": 3166714685,
+      "communication_transients_removed": 15
+    },
+    "preserved": "96份种族及派系目录、用户决定、唯一编辑输入、默认夹具、编译候选、before备份及引用证据；两份有独立价值的历史材料保留。"
+  },
+  "handoff": {
+    "next_steps": [
+      "设计可并行推进维加斯共享成长、都市空间接口及实际消费的共通装备；各领域先读当前正文，不重建结构。",
+      "技术仅准备和核对关键输入；用户明确恢复前不运行制作或游戏试验。",
+      "豪斯出征身份、主教个人形态及其他实质方向分歧仍由用户复阅；无关内容可继续。"
+    ],
+    "operator_action": "当前无需操作游戏；提交推送结果见本批交付记录及最终回复。",
+    "restoration_boundary": "本轮只清理项目工作区内已核明的冗余稿与复制缓存，未动游戏、存档或外部配置。",
+    "version_control": {
+      "requested": "commit_and_push",
+      "branch": "main",
+      "base_commit": "215ace9",
+      "delivery_record": "work/GOV-20261103-FULL/提交结果.json"
     }
+  },
+  "documentation_policy": {
+    "race_structure": "按用户要求保持原结构，不因数量压缩。",
+    "current_text": "责任正文就地更新、当前停点唯一；历史过程进既有日志，报告仅保留必要证据。",
+    "parallelism": "独立范围立即并行；部分依赖先约定接口；同一正文或外部制作资源独占。"
   }
 }

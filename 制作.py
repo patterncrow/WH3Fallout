@@ -126,6 +126,10 @@ def run_build(root, stage, build_id):
             if stage == "starting-state":
                 commands.append(("starting-state", [sys.executable, str(scripts / "build_starting_state.py"),
                                  "--input", str(map_pack), "--output", str(starting_pack)], starting_pack))
+                validation_report = build_dir / "startpos-validation.json"
+                commands.append(("starting-state-validation", [sys.executable,
+                                 str(scripts / "validate_starting_state.py"), "--input", str(starting_pack),
+                                 "--output", str(validation_report)], validation_report))
         for name, command, expected_output in commands:
             step = {"name": name, "command": command, "started_at": now(), "status": "running"}
             manifest["steps"].append(step)
@@ -144,6 +148,11 @@ def run_build(root, stage, build_id):
             if not expected_output.is_file():
                 raise FileNotFoundError("步骤未生成声明的输出：" + str(expected_output))
             step["status"] = "succeeded"
+            if name == "starting-state-validation":
+                validation = json.loads(expected_output.read_text(encoding="utf-8"))
+                manifest["checks"]["startpos_validation"] = {
+                    "status": "passed", "issues": len(validation["issues"]),
+                    "evidence": expected_output.name}
         else:
             returncode = 0
         manifest["status"] = "succeeded" if returncode == 0 else "failed"
@@ -172,9 +181,23 @@ def run_build(root, stage, build_id):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("stage", choices=("registration", "map", "starting-state"))
+    parser.add_argument("stage", choices=("registration", "map", "starting-state", "prepare-native"))
     parser.add_argument("--build-id", default=datetime.now().strftime("%Y%m%d-%H%M%S-") + uuid.uuid4().hex[:6])
+    parser.add_argument("--input-build", help="prepare-native使用的已校验开局输入构建标识")
     args = parser.parse_args()
+    if args.stage == "prepare-native":
+        if not args.input_build:
+            parser.error("prepare-native需要--input-build")
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from prepare_native import prepare
+        from project_paths import load_environment
+        environment = load_environment()
+        user_script = Path(os.environ["APPDATA"]) / "The Creative Assembly/Warhammer3/scripts/user.script.txt"
+        report = prepare(ROOT, args.input_build, args.build_id, environment["game_root"], user_script)
+        build_dir = ROOT / "work" / args.build_id
+        record_attempt(ROOT, report, build_dir)
+        print(f"awaiting_operator: {build_dir / 'manifest.json'}")
+        return 0
     return run_build(ROOT, args.stage, args.build_id)
 
 

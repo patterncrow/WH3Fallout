@@ -4,6 +4,7 @@ import importlib.util
 from pathlib import Path
 import sys
 import unittest
+from unittest.mock import Mock
 
 
 ROOT = Path(__file__).resolve().parents[1] / "scripts"
@@ -44,6 +45,30 @@ class RpfmProtocolTests(unittest.TestCase):
                          {"rows": []})
         self.assertEqual(module.unpack_tool_result({"result": {
             "content": [{"type": "text", "text": '{"rows": []}'}]}}), {"rows": []})
+
+    def job_client(self, replies):
+        module = self.module()
+        self.assertTrue(hasattr(module.RpfmClient, "wait_job"), "缺少异步任务的终态等待")
+        client = object.__new__(module.RpfmClient)
+        client.tool = Mock(side_effect=replies)
+        return client
+
+    def test_job_waits_until_finished_and_returns_the_actual_result(self):
+        client = self.job_client([{"state": "running"},
+                                 {"state": "finished", "result": {"issues": []}}])
+        self.assertEqual(client.wait_job(42), {"issues": []})
+        self.assertEqual(client.tool.call_count, 2)
+
+    def test_failed_job_does_not_look_like_a_successful_validation(self):
+        client = self.job_client([{"state": "failed", "error": {"message": "invalid table"}}])
+        with self.assertRaisesRegex(RuntimeError, "invalid table"):
+            client.wait_job(42)
+
+    def test_expired_wait_retains_job_identity_and_does_not_cancel_it(self):
+        client = self.job_client([])
+        with self.assertRaisesRegex(TimeoutError, "42"):
+            client.wait_job(42, timeout=0)
+        client.tool.assert_not_called()
 
 
 if __name__ == "__main__":

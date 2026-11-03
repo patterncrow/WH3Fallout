@@ -2,6 +2,7 @@
 
 import itertools
 import json
+import time
 import urllib.request
 from project_paths import load_environment
 
@@ -38,7 +39,7 @@ def unpack_tool_result(response):
 
 
 class RpfmClient:
-    """每次工作使用独立会话，不接管用户前端打开的包。"""
+    """只操作本次打开的包；MCP传输会话不保证后端状态独立，勿并行生成开局。"""
 
     def __init__(self):
         self.url = load_environment()["rpfm_url"]
@@ -65,6 +66,22 @@ class RpfmClient:
     def tool(self, tool_name, **arguments):
         return unpack_tool_result(self.call("tools/call",
             {"name": tool_name, "arguments": arguments}))
+
+    def wait_job(self, job, timeout=180):
+        """任务号不是成功结果；超时保留任务身份，不擅自取消后端工作。"""
+        deadline = time.monotonic() + timeout
+        while True:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise TimeoutError(f"RPFM任务{job}仍未到终态，请核对后端状态")
+            status = self.tool("wait_for_job", job=job,
+                               timeout_secs=min(30, max(1, int(remaining))))
+            if status["state"] == "finished":
+                return status["result"]
+            if status["state"] in ("failed", "cancelled"):
+                raise RuntimeError(f"RPFM任务{job}: {status}")
+            if status["state"] not in ("queued", "running"):
+                raise RuntimeError(f"RPFM任务{job}返回未知状态：{status}")
 
     def __enter__(self):
         result = self.call("initialize", {
