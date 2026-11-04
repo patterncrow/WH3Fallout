@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:50:58+08:00",
-  "batch_id": "GOV-20261104-DESIGN-ALIGNMENT",
-  "phase": "full-document-alignment-completed",
-  "objective": "全部现行文档资料已对齐最新讨论；实际目录统一异形/掠夺者/大山脉，聚落与合成人及义勇军代理方案落实；DV-001—031集中记录未验证组合。",
+  "updated_at": "2026-11-04T15:31:53+08:00",
+  "batch_id": "GOV-20261104-RESULT-ONLY",
+  "phase": "result-only-writing-rules-applied",
+  "objective": "文档结果表达及方向补全协作规则已落实，四领域已同步；从当前责任正文继续设计。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
     "history": "工程/工程日志.jsonl",
     "historical_test_results": "文档/可行性验证/首批可行性验证方案.md#八独立战役样板执行记录2026-11-02",
-    "collaboration": "项目工程实施框架.md#十一多对话实施与整合2026-11-02确认",
+    "collaboration": "项目工程实施框架.md#十一多对话实施与整合",
     "governance": "项目工程实施框架.md",
     "governance_skill": ".agents/skills/wh3-project-governance/SKILL.md",
     "pending_design_verification": "文档/可行性验证/首批可行性验证方案.md#十当前设计组合待验证清单"
@@ -30,42 +30,37 @@
       "task": "整体工程与关键任务",
       "owner": "本对话",
       "entry": "项目工程实施框架.md",
-      "status": "四领域全文核查、目录迁移、主控入口与交叉复核已收口；未提交推送"
+      "status": "过时正文与重复过程清理完成，当前设计及真实待定保留；后续从责任正文接续"
     },
     {
       "task": "种族与派系设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/设计总纲.md",
-      "status": "11个实际种族目录、120份种族正文已对齐；尸鬼为异形分支，C10只内容ID",
+      "status": "过时正文与重复过程清理完成，当前设计及真实待定保留；后续从责任正文接续",
       "owner_thread": "01a19bfd-f717-7061-ad97-fe16fa4f13e3"
     },
     {
       "task": "世界与战役设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/地图/战役地图设计.md",
-      "status": "大山脉设施并F21，P04B用L22；聚落/合成人空间、代理/驻地、风暴与避难所边界已对齐",
+      "status": "过时正文与重复过程清理完成，当前设计及真实待定保留；后续从责任正文接续",
       "owner_thread": "01a19cdd-4b2f-77d1-9b6b-743ad8aea4f1"
     },
     {
       "task": "战斗装备与人物构筑",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/战斗/通用战斗与能力设计.md",
-      "status": "战斗/装备/邮差已修正种族权限和名称，待验统一引用DV清单",
+      "status": "过时正文与重复过程清理完成，当前设计及真实待定保留；后续从责任正文接续",
       "owner_thread": "01a19cde-08c9-7e91-aa7f-a9ef377bed0f"
     },
     {
       "task": "技术实现与验证",
       "owner": "领域原聊天",
       "entry": "文档/技术设计/技术概要设计.md",
-      "status": "5份技术/参考资料已核查；DV-001—031集中清单与独立语义复核完成，技术执行仍暂停",
+      "status": "过时正文与重复过程清理完成，当前设计及真实待定保留；后续从责任正文接续",
       "owner_thread": "01a19cde-d289-7400-b710-220be9d3dd84"
     }
   ],
-  "completed_round": {
-    "id": "GOV-20261104-DESIGN-ALIGNMENT",
-    "status": "full_document_alignment_completed_runtime_pending",
-    "review": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json"
-  },
   "verification_evidence": {
     "native_import": "work/eng04-native-001/native-import.json",
     "basic_ncr": "work/eng06-playtest-001/manual-result.json",
@@ -105,69 +100,67 @@
   },
   "cross_thread_coordination": {
     "mode": "A_master_four_original_workers",
-    "status": "round_integrated_workers_idle",
+    "status": "round_completed_four_workers_confirmed",
     "guide": "工程/跨对话协作.md",
     "evidence": "work/codex-coordination/验收结果.json",
     "last_review": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
     "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。",
-    "current_batch": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json"
+    "current_batch": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json#result_only_pass"
   },
   "governance_baseline": {
-    "version": "1.1",
-    "batch_id": "GOV-20261104-DESIGN-ALIGNMENT",
-    "status": "full_document_alignment_completed",
-    "report": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
-    "checks": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
+    "version": "1.3",
+    "batch_id": "GOV-20261104-CURRENT-ONLY",
+    "status": "current_documentation_cleanup_completed",
+    "evidence": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json#cleanup_pass",
     "summary": {
-      "markdown_checked": 144,
+      "markdown_checked": 137,
+      "local_links": 876,
+      "deleted_files": 7,
+      "changed_or_deleted_documents": 135,
+      "net_characters_removed": 92669,
+      "retained_documents_characters_removed": 42487,
       "race_directories": 11,
-      "race_documents": 120,
-      "migrated_files": 39,
-      "pending_design_questions": 31,
-      "deleted_files": 0
-    },
-    "preserved": "迁移前文档备份、既有内容ID、两份历史快照、验证第八节及全部原测试证据；未操作游戏或存档。",
-    "previous_governance": {
-      "report": "work/GOV-20261103-FULL/治理结果.json",
-      "cleanup": "work/GOV-20261103-FULL/清理记录.json",
-      "summary": {
-        "old_documents_removed": 15,
-        "duplicate_ak_files_removed": 13169,
-        "duplicate_ak_bytes_removed": 3166714685,
-        "communication_transients_removed": 15
+      "SYS": {
+        "count": 45,
+        "unique": 45
+      },
+      "TW": {
+        "count": 131,
+        "unique": 131
+      },
+      "DV": {
+        "count": 31,
+        "unique": 31
       }
-    },
-    "current_policy_version": "1.1"
+    }
   },
   "handoff": {
     "next_steps": [
-      "从现行种族目录和导航继续设计，旧顶层尸鬼/超级变种人/大可汗/大山不再是当前入口。",
-      "用户可复阅C11聚落/义勇军/F41与C12合成人三派的初设，具体核心限额、战争白名单及F40落位仍需后续细化。",
-      "待技术验证只从验证方案第十节DV-001—031接续；用户明确恢复前不执行构建或游戏试验。",
-      "已有原型目录仍保留版本/证据分级，采用候选不自动变成已确认或已实现。",
-      "本批用户已授权提交；后续推送仍须用户要求或自行处理。"
+      "从现行设计总纲和种族概述继续复阅，优先NCR与凯撒军团的成套设计。",
+      "F35核心限额、战争资格、F40落位与P10B归属继续在责任正文细化。",
+      "技术待验以DV-001—031为准，用户明确恢复之前不执行。"
     ],
-    "operator_action": "本批按用户要求提交；推送由用户后续处理，无需操作游戏。",
-    "restoration_boundary": "文档目录安全迁移前已备份，未删除正文；历史快照与验证第八节原文不变，未改游戏、存档或外部配置。",
+    "operator_action": "文档与规则调整已进入本次授权提交；技术测试继续暂停，推送由用户决定。",
+    "restoration_boundary": "本轮仅清理项目文档和现有工程记录；未修改游戏、存档、源码或外部配置。已删文档可从28b872d恢复，原始测试证据保留。",
     "version_control": {
       "last_delivery": {
-        "commit": "632ce8fcc3bbb141df5f0e21d4f148a871875907",
+        "commit": "28b872dde9357722347f1818b07184857ca1cd02",
         "branch": "main",
-        "status": "user_pushed_remote_verified",
-        "record": "work/GOV-20261103-FULL/提交结果.json"
+        "status": "committed_not_pushed_by_this_chat",
+        "record": "work/GOV-20261104-DESIGN-ALIGNMENT/提交结果.json"
       },
       "current_batch": {
-        "id": "GOV-20261104-DESIGN-ALIGNMENT",
-        "authorization": "commit_only",
-        "lookup": "Git提交标题：设计：整合废土派系机制并统一种族文档体系",
-        "receipt": "work/GOV-20261104-DESIGN-ALIGNMENT/提交结果.json",
-        "push": "未执行，用户本次仅要求提交"
+        "id": "GOV-20261104-RESULT-ONLY",
+        "authorization": "用户明确要求提交本轮文档清理与规则调整",
+        "commit": "本次授权提交，结果见Git最新提交及本机提交回执",
+        "push": "未执行"
       }
     }
   },
   "documentation_policy": {
     "race_structure": "按用户要求保持原结构，不因数量压缩。",
-    "current_text": "责任正文就地更新、当前停点唯一；历史过程进既有日志，报告仅保留必要证据。",
-    "parallelism": "独立范围立即并行；部分依赖先约定接口；同一正文或外部制作资源独占。"
+    "current_text": "正文直接写当前事实、规则、必要条件和真实待定；删除讨论经过、自设观点后的反驳及无效排除说明。限制须有用户决定、玩法或技术依据；有效候选与未验证状态准确标记。",
+    "parallelism": "独立范围立即并行；部分依赖先约定接口；同一正文或外部制作资源独占。",
+    "design_collaboration": "用户提供方向与重点；助手核对背景和原型后主动补全成套初设，仅真实矛盾、技术限制与方向分歧附选项交裁决。"
   }
 }
