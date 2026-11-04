@@ -223,5 +223,37 @@
   ],
   "legacy_manifest": "work/legacy-20261102/manifest.json",
   "record_storage": "迁移摘要与关键文件摘要纳入Git，原始二进制及运行证据只保存在本机work目录。",
-  "cache_policy": "缓存随原目录保留在本机，但不属于源文件快照或Git提交。"
+  "cache_policy": "缓存随原目录保留在本机，但不属于源文件快照或Git提交。",
+  "documentation_migrations": [
+    {
+      "id": "GOV-20261104-DESIGN-ALIGNMENT",
+      "time": "2026-11-04T09:35:39+08:00",
+      "reason": "按用户明确种族合并及改名要求同步真实目录，保留内容ID与历史证据。",
+      "moves": [
+        {
+          "from": "文档/功能设计/种族/超级变种人",
+          "to": "文档/功能设计/种族/异形"
+        },
+        {
+          "from": "文档/功能设计/种族/尸鬼",
+          "to": "文档/功能设计/种族/异形/分支/尸鬼"
+        },
+        {
+          "from": "文档/功能设计/种族/大可汗",
+          "to": "文档/功能设计/种族/掠夺者"
+        },
+        {
+          "from": "文档/功能设计/种族/大山",
+          "to": "文档/功能设计/种族/大山脉"
+        }
+      ],
+      "branch_file_names": {
+        "种族概述.md": "分支概述.md",
+        "种族机制.md": "机制差异.md"
+      },
+      "evidence": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
+      "backup": "work/GOV-20261104-DESIGN-ALIGNMENT/迁移前文档备份",
+      "limits": "备份在本机磁盘，非独立异地备份；仅文档目录迁移，未改变代码、游戏产物或旧测试结论。"
+    }
+  ]
 }

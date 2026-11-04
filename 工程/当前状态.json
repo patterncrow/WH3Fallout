@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T10:09:22.465245+08:00",
-  "batch_id": "GOV-20261103-FEEDBACK",
-  "phase": "governance-policy-refined",
-  "objective": "框架与治理技能1.1优化已完成，本批仅提交，后续由用户推送；技术测试继续暂停。",
+  "updated_at": "2026-11-04T09:50:58+08:00",
+  "batch_id": "GOV-20261104-DESIGN-ALIGNMENT",
+  "phase": "full-document-alignment-completed",
+  "objective": "全部现行文档资料已对齐最新讨论；实际目录统一异形/掠夺者/大山脉，聚落与合成人及义勇军代理方案落实；DV-001—031集中记录未验证组合。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
@@ -11,7 +11,8 @@
     "historical_test_results": "文档/可行性验证/首批可行性验证方案.md#八独立战役样板执行记录2026-11-02",
     "collaboration": "项目工程实施框架.md#十一多对话实施与整合2026-11-02确认",
     "governance": "项目工程实施框架.md",
-    "governance_skill": ".agents/skills/wh3-project-governance/SKILL.md"
+    "governance_skill": ".agents/skills/wh3-project-governance/SKILL.md",
+    "pending_design_verification": "文档/可行性验证/首批可行性验证方案.md#十当前设计组合待验证清单"
   },
   "candidate": {
     "input_build": "eng02-start-002",
@@ -29,41 +30,41 @@
       "task": "整体工程与关键任务",
       "owner": "本对话",
       "entry": "项目工程实施框架.md",
-      "status": "本轮治理完成，等待后续具体任务"
+      "status": "四领域全文核查、目录迁移、主控入口与交叉复核已收口；未提交推送"
     },
     {
       "task": "种族与派系设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/设计总纲.md",
-      "status": "本轮治理完成，等待后续具体任务",
+      "status": "11个实际种族目录、120份种族正文已对齐；尸鬼为异形分支，C10只内容ID",
       "owner_thread": "01a19bfd-f717-7061-ad97-fe16fa4f13e3"
     },
     {
       "task": "世界与战役设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/地图/战役地图设计.md",
-      "status": "本轮治理完成，等待后续具体任务",
+      "status": "大山脉设施并F21，P04B用L22；聚落/合成人空间、代理/驻地、风暴与避难所边界已对齐",
       "owner_thread": "01a19cdd-4b2f-77d1-9b6b-743ad8aea4f1"
     },
     {
       "task": "战斗装备与人物构筑",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/战斗/通用战斗与能力设计.md",
-      "status": "本轮治理完成，等待后续具体任务",
+      "status": "战斗/装备/邮差已修正种族权限和名称，待验统一引用DV清单",
       "owner_thread": "01a19cde-08c9-7e91-aa7f-a9ef377bed0f"
     },
     {
       "task": "技术实现与验证",
       "owner": "领域原聊天",
       "entry": "文档/技术设计/技术概要设计.md",
-      "status": "文档治理完成，技术执行仍暂停",
+      "status": "5份技术/参考资料已核查；DV-001—031集中清单与独立语义复核完成，技术执行仍暂停",
       "owner_thread": "01a19cde-d289-7400-b710-220be9d3dd84"
     }
   ],
   "completed_round": {
-    "id": "COORD-20261102-01",
-    "status": "design_integrated_runtime_pending",
-    "review": "work/codex-coordination/a-master-integration-review.json"
+    "id": "GOV-20261104-DESIGN-ALIGNMENT",
+    "status": "full_document_alignment_completed_runtime_pending",
+    "review": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json"
   },
   "verification_evidence": {
     "native_import": "work/eng04-native-001/native-import.json",
@@ -91,13 +92,10 @@
     "results": "work/tech-sweep-20261102-01/results.json",
     "next_control": "work/tech-sweep-campaign-001/fnvtw_capacity_control.pack",
     "remaining": [
-      "视觉地图与战场制作链",
-      "自制资产导入",
-      "容量实际招募及样板姿态问题",
-      "音频编译与听音",
-      "深隧及完整入口行为"
+      "当前待验证对象统一从验证方案第十节DV-001—031接续；原集中样板历史证据仍引用results。"
     ],
-    "resume_condition": "用户明确恢复或指定技术执行任务，先核对真实环境并登记资源独占。"
+    "resume_condition": "用户明确恢复或指定技术执行任务，先核对真实环境并登记资源独占。",
+    "pending_design_questions": "文档/可行性验证/首批可行性验证方案.md#十当前设计组合待验证清单"
   },
   "shared_execution_resources": {
     "owner": null,
@@ -107,35 +105,50 @@
   },
   "cross_thread_coordination": {
     "mode": "A_master_four_original_workers",
-    "status": "tested_and_used_for_business",
+    "status": "round_integrated_workers_idle",
     "guide": "工程/跨对话协作.md",
     "evidence": "work/codex-coordination/验收结果.json",
-    "last_review": "work/codex-coordination/a-master-integration-review.json",
-    "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。"
+    "last_review": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
+    "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。",
+    "current_batch": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json"
   },
   "governance_baseline": {
-    "version": "1.0",
-    "status": "full_governance_completed",
-    "report": "work/GOV-20261103-FULL/治理结果.json",
-    "checks": "work/GOV-20261103-FULL/静态检查.json",
-    "cleanup": "work/GOV-20261103-FULL/清理记录.json",
+    "version": "1.1",
+    "batch_id": "GOV-20261104-DESIGN-ALIGNMENT",
+    "status": "full_document_alignment_completed",
+    "report": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
+    "checks": "work/GOV-20261104-DESIGN-ALIGNMENT/运行状态.json",
     "summary": {
-      "old_documents_removed": 15,
-      "duplicate_ak_files_removed": 13169,
-      "duplicate_ak_bytes_removed": 3166714685,
-      "communication_transients_removed": 15
+      "markdown_checked": 144,
+      "race_directories": 11,
+      "race_documents": 120,
+      "migrated_files": 39,
+      "pending_design_questions": 31,
+      "deleted_files": 0
     },
-    "preserved": "96份种族及派系目录、用户决定、唯一编辑输入、默认夹具、编译候选、before备份及引用证据；两份有独立价值的历史材料保留。",
+    "preserved": "迁移前文档备份、既有内容ID、两份历史快照、验证第八节及全部原测试证据；未操作游戏或存档。",
+    "previous_governance": {
+      "report": "work/GOV-20261103-FULL/治理结果.json",
+      "cleanup": "work/GOV-20261103-FULL/清理记录.json",
+      "summary": {
+        "old_documents_removed": 15,
+        "duplicate_ak_files_removed": 13169,
+        "duplicate_ak_bytes_removed": 3166714685,
+        "communication_transients_removed": 15
+      }
+    },
     "current_policy_version": "1.1"
   },
   "handoff": {
     "next_steps": [
-      "设计可并行推进维加斯共享成长、都市空间接口及实际消费的共通装备；各领域先读当前正文，不重建结构。",
-      "技术仅准备和核对关键输入；用户明确恢复前不运行制作或游戏试验。",
-      "豪斯出征身份、主教个人形态及其他实质方向分歧仍由用户复阅；无关内容可继续。"
+      "从现行种族目录和导航继续设计，旧顶层尸鬼/超级变种人/大可汗/大山不再是当前入口。",
+      "用户可复阅C11聚落/义勇军/F41与C12合成人三派的初设，具体核心限额、战争白名单及F40落位仍需后续细化。",
+      "待技术验证只从验证方案第十节DV-001—031接续；用户明确恢复前不执行构建或游戏试验。",
+      "已有原型目录仍保留版本/证据分级，采用候选不自动变成已确认或已实现。",
+      "本批用户已授权提交；后续推送仍须用户要求或自行处理。"
     ],
-    "operator_action": "本批提交后由用户手动推送；无需操作游戏。后续业务安排见A建议，尚未派发。",
-    "restoration_boundary": "本轮只清理项目工作区内已核明的冗余稿与复制缓存，未动游戏、存档或外部配置。",
+    "operator_action": "本批按用户要求提交；推送由用户后续处理，无需操作游戏。",
+    "restoration_boundary": "文档目录安全迁移前已备份，未删除正文；历史快照与验证第八节原文不变，未改游戏、存档或外部配置。",
     "version_control": {
       "last_delivery": {
         "commit": "632ce8fcc3bbb141df5f0e21d4f148a871875907",
@@ -144,10 +157,11 @@
         "record": "work/GOV-20261103-FULL/提交结果.json"
       },
       "current_batch": {
-        "id": "GOV-20261103-FEEDBACK",
+        "id": "GOV-20261104-DESIGN-ALIGNMENT",
         "authorization": "commit_only",
-        "push": "由用户执行",
-        "lookup": "Git提交标题：治理：完善框架与项目治理技能收口规则"
+        "lookup": "Git提交标题：设计：整合废土派系机制并统一种族文档体系",
+        "receipt": "work/GOV-20261104-DESIGN-ALIGNMENT/提交结果.json",
+        "push": "未执行，用户本次仅要求提交"
       }
     }
   },
