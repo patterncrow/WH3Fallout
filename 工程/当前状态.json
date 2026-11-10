@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T16:35:42+08:00",
-  "batch_id": "GOV-20261109",
-  "phase": "governance-completed-testing-paused",
-  "objective": "集成验证规则已落实，四领域现行文档、证据边界和接续状态已归拢。",
+  "updated_at": "2026-11-10T10:42:06+08:00",
+  "batch_id": "REVIEW-RACE-DETAIL-20261110",
+  "phase": "race-detail-reviewed",
+  "objective": "种族成套初设整体复核与必要修正完成，文档交付按用户要求提交；技术实测继续暂停。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
@@ -30,34 +30,34 @@
       "task": "整体工程与关键任务",
       "owner": "本对话",
       "entry": "项目工程实施框架.md",
-      "status": "责任正文治理完成，按正式正文接续设计"
+      "status": "本批种族细化与跨领域接口复核收口；设计初设未制作实测"
     },
     {
       "task": "种族与派系设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/设计总纲.md",
-      "status": "责任正文治理完成，按正式正文接续设计",
+      "status": "人物、科技、建筑、兵源及16个非NCR可玩派系成长样本已成套补齐；具体宿主与参数仍为初设",
       "owner_thread": "01a19bfd-f717-7061-ad97-fe16fa4f13e3"
     },
     {
       "task": "世界与战役设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/地图/战役地图设计.md",
-      "status": "责任正文治理完成，按正式正文接续设计",
+      "status": "完成只读空间复核并就地修正事件／地图的必要接口；未扩图或新开设计范围",
       "owner_thread": "01a19cdd-4b2f-77d1-9b6b-743ad8aea4f1"
     },
     {
       "task": "战斗装备与人物构筑",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/战斗/通用战斗与能力设计.md",
-      "status": "责任正文治理完成，按正式正文接续设计",
+      "status": "完成两轮只读人物／兵组／恢复接口复核，实际问题已回种族修正",
       "owner_thread": "01a19cde-08c9-7e91-aa7f-a9ef377bed0f"
     },
     {
       "task": "技术实现与验证",
       "owner": "领域原聊天",
       "entry": "文档/技术设计/技术概要设计.md",
-      "status": "实际测试暂停；后续按一次启动多项的集成样本准备，当前容量尚未实测",
+      "status": "技术概要与原DV必要同步完成；未恢复工具、部署或游戏测试",
       "owner_thread": "01a19cde-d289-7400-b710-220be9d3dd84"
     }
   ],
@@ -87,8 +87,7 @@
     "results": "work/tech-sweep-20261102-01/results.json",
     "next_control": "work/tech-sweep-campaign-001/fnvtw_capacity_control.pack",
     "remaining": [
-      "DV-001—052的现行问题与子例见验证方案第十节；先按兼容环境/操作路径编组集成，不按编号逐次启动。",
-      "容量包在9.0.5.0的工具检查及配置恢复有报告，游戏招募与容量行为尚未实际验证。"
+      "当前DV-001—054，新增053筹码升级、054声望及玩家任务，其他新依赖复用既有子例；均按实际证据界定，实测继续暂停。"
     ],
     "resume_condition": "用户明确恢复实际测试后，技术聊天先准备集成样本及单份清单，A登记共享执行窗口，核对当时真实环境再部署。",
     "pending_design_questions": "文档/可行性验证/首批可行性验证方案.md#十当前设计组合待验证清单",
@@ -108,9 +107,9 @@
     "status": "round_completed",
     "guide": "工程/跨对话协作.md",
     "evidence": "work/codex-coordination/验收结果.json",
-    "last_review": "work/governance-20261109.json#review",
+    "last_review": "work/coordination-20261110-race-detail.json#commit_review",
     "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。",
-    "current_batch": "work/governance-20261109.json"
+    "current_batch": "work/coordination-20261110-race-detail.json"
   },
   "governance_baseline": {
     "version": "1.4",
@@ -120,24 +119,27 @@
   },
   "handoff": {
     "next_steps": [
-      "设计按种族总纲及责任正文继续；保留P10B归属、L17选址、F35核心限额、兄弟会代理/AI配额等真实未定。",
-      "参数与接口按既有初设及DV依赖推进；费用、容量和权重由助手统一配置，候选不升级为用户确认。",
-      "准备兼容测试项的集成样本与单份操作清单；用户明确恢复前不部署或启动实际验证。"
+      "以设计总纲及现有各种族入口审阅人物／研究／建设工作样本；普通参数继续由助手收敛。",
+      "19个可玩选项沿NCR既有设计及16个新成长样本接续；实际开局编成尚未写入startpos。",
+      "后续世界、装备与能力按种族现有配置承接，不重复建立军队／成长规则。",
+      "特殊恢复量、单位／人物动作与跨文化接口沿既有DV-001—054处理；实际测试仍暂停，须用户明确恢复。"
     ],
-    "operator_action": "治理已完成，用户已授权本地提交；实际测试仍暂停，未授权推送。",
-    "restoration_boundary": "本批仅修改设计、技术概要、验证方案、参考资料与现有工程记录；未修改源码、游戏、存档或外部配置。",
+    "operator_action": "完成正文一致性、路径／锚点、表格、JSON和提交范围静态检查，按用户要求提交文档；未运行构建、测试、游戏或推送。",
+    "restoration_boundary": "本批未修改content、制作脚本、实际开局、游戏、存档或外部配置。",
     "version_control": {
       "last_delivery": {
-        "commit": "2c09baf7a8867a5446c7d91e706c86b7959cddf3",
+        "commit": "HEAD",
+        "batch_id": "REVIEW-RACE-DETAIL-20261110",
         "branch": "main",
-        "status": "committed_not_pushed_by_this_chat",
-        "record": "work/commit-20261106-result.json"
+        "status": "local_commit_not_pushed",
+        "record": "work/commit-race-detail-20261110-result.json",
+        "scope": "包含本批工程日志条目的提交；精确SHA与文件清单见record。"
       },
       "current_batch": {
-        "id": "GOV-20261109",
-        "authorization": "规则落实、整体治理及本地提交",
-        "commit": "已授权，纳入本次本地提交；提交号见Git记录",
-        "push": "未执行"
+        "id": "REVIEW-RACE-DETAIL-20261110",
+        "authorization": "用户要求整体检查、修正后提交",
+        "commit": "随本批记录交付，精确SHA见提交回执",
+        "push": "未授权，未执行"
       }
     }
   },
