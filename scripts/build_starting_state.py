@@ -89,6 +89,24 @@ def starting_records(ak):
     return records
 
 
+def settlement_translations(settlements):
+    titles = {
+        "fnvtw_ncr_town": "NCR试验据点",
+        "fnvtw_legion_town": "军团试验据点",
+        "fnvtw_enclave_town": "围合区试验据点",
+    }
+    translations = {}
+    for settlement in settlements:
+        settlement_id = settlement["settlement_id"]
+        region_key = settlement_id.rsplit(":", 1)[-1]
+        title = titles[region_key]
+        translations["regions_onscreen_" + region_key] = title
+        translations["provinces_onscreen_" + region_key + "_province"] = title
+        # 原版地图旗标按开局聚落 ID 和数字区域 ID 拼接独立的本地化键。
+        translations[f'start_pos_settlements_onscreen_name_{settlement_id}{settlement["region"]}'] = title
+    return translations
+
+
 def insert_rows(client, pack, table, rows, version=None):
     name = table + "_tables"
     path = "db/" + name + "/fnvtw_prototype"
@@ -190,10 +208,7 @@ def build(source_path, output):
             for label, title in (("ncr", "NCR样板集团"), ("legion", "凯撒军团样板集团"),
                                  ("local_guard", "围合区地方守军")):
                 translations["factions_screen_name_fnvtw_" + label] = title
-            for region, title in (("ncr", "NCR试验据点"), ("legion", "军团试验据点"),
-                                  ("enclave", "围合区试验据点")):
-                translations["regions_onscreen_fnvtw_" + region + "_town"] = title
-                translations["provinces_onscreen_fnvtw_" + region + "_town_province"] = title
+            translations.update(settlement_translations(records["start_pos_settlements"]))
             client.tool("edit_table", pack=target["key"], path=loc_path, edits=[
                 {"op": "insert", "values": {"key": key, "text": text, "tooltip": False}}
                 for key, text in translations.items()])

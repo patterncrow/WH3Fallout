@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T15:30:12+08:00",
+  "updated_at": "2026-11-16T17:47:58.427376+08:00",
   "batch_id": "MAP-LAYOUT-20261110",
   "phase": "regional-layout-refinement-completed",
   "objective": "地图宏观要求与区域路线初设已统一，后续由世界对话沿现有正文继续细化。",
@@ -69,12 +69,12 @@
     "technical_questions": "work/tech-sweep-20261102-01/results.json",
     "note": "局部样本证据，不证明当前源码全量重建、完整玩法或平衡通过。"
   },
-  "verification_policy": "默认不执行验证。用户当前暂停实际测试；恢复后按工程框架第六节集成兼容项，用户单份操作清单、逐项证据，仅冲突或定位失败时拆分对照。治理不恢复工具、部署或游戏。",
+  "verification_policy": "用户明确暂停技术测试。待用户明确恢复或指定技术任务后执行，现有证据可只读核对。内存调查暂缓。",
   "environment_policy": "用户认为本机内存不足，且普通游玩也曾闪退；按用户要求停止采样和调查，正常推进开发。",
   "temporary_environment": {
-    "latest_session": "work/tech-capacity-20261109-001/manifest.json",
-    "latest_restoration": "work/tech-capacity-20261109-001/restoration.json",
-    "status": "技术报告记载本批五项改动已恢复并核摘要、旧启动文件禁用；当前治理未重核外部运行态，更早before中遗留不等于已清理。",
+    "latest_session": "work/tech-integrated-20261117-004/manifest.json",
+    "latest_restoration": "work/tech-integrated-20261117-004/restoration.json",
+    "status": "2026-11-17暂停时核对最近批次八项均匹配部署前基线；共享窗口空闲。",
     "legacy_boundary": "更早的测试包、user.script和本项目松散文件可能在before中；本次恢复不等于全局清理，交接时按清单只读核对，不擅自删除。"
   },
   "local_evidence": {
@@ -87,20 +87,23 @@
     "results": "work/tech-sweep-20261102-01/results.json",
     "next_control": "work/tech-sweep-campaign-001/fnvtw_capacity_control.pack",
     "remaining": [
-      "当前DV-001—054，新增053筹码升级、054声望及玩家任务，其他新依赖复用既有子例；均按实际证据界定，实测继续暂停。"
+      "声望扣款、档位及重入防扣获局部通过；第二回合载入时据点回到军团，易主环节未定位。"
     ],
-    "resume_condition": "用户明确恢复实际测试后，技术聊天先准备集成样本及单份清单，A登记共享执行窗口，核对当时真实环境再部署。",
+    "resume_condition": "仅在用户明确恢复或指定技术任务后执行。恢复后优先新机制，归属问题先采易主事件，读档沿验证方案第五节复用。",
     "pending_design_questions": "文档/可行性验证/首批可行性验证方案.md#十当前设计组合待验证清单",
     "prior_authorization_record": "work/tech-resume-20261109-authorization.json",
-    "current_manifest": "work/tech-capacity-20261109-001/manifest.json"
+    "current_manifest": "work/tech-integrated-20261117-004/manifest.json",
+    "latest_manual_result": "work/tech-integrated-20261117-004/manual-result.json",
+    "paused_at": "2026-11-17T14:39:11.050070+08:00"
   },
   "shared_execution_resources": {
     "owner": null,
-    "status": "execution_paused_restoration_reported",
-    "scope": "RPFM后端、AK原生生成、游戏试验包部署及临时启动配置",
-    "execution_manifest": "work/tech-capacity-20261109-001/manifest.json",
-    "restoration_responsibility": "技术聊天负责本轮逐样本记录before/applied/after和摘要；游戏退出后只恢复本批实际改动；状态有他人变化则保留并报告冲突。用户继续下一样本时可保持明确记录的测试配置，收口时说明最终恢复状态。",
-    "note": "技术聊天报告已恢复本轮五项改动并核摘要；本聊天未重核外部运行态。恢复测试须用户明确指令。"
+    "status": "released",
+    "scope": null,
+    "execution_manifest": "work/tech-integrated-20261117-004/manifest.json",
+    "restoration_responsibility": null,
+    "note": "测试暂停；本系列临时包未留在游戏目录，启动入口均已禁用，最近八项恢复摘要已复核。",
+    "latest_restoration": "work/tech-integrated-20261117-004/restoration.json"
   },
   "cross_thread_coordination": {
     "mode": "A_master_four_original_workers",

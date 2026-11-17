@@ -11,6 +11,19 @@ PROJECT = Path(__file__).resolve().parents[1]
 ROOT = PROJECT / "scripts"
 sys.path.insert(0, str(ROOT))
 from rpfm_rpc import RpfmClient
+from build_starting_state import settlement_translations
+
+
+class SettlementTranslationTests(unittest.TestCase):
+    def test_settlement_banner_key_uses_settlement_and_numeric_region_id(self):
+        translations = settlement_translations([
+            {"settlement_id": "settlement:settlement:fnvtw_legion_town", "region": "2140100102"},
+        ])
+        self.assertEqual(translations, {
+            "regions_onscreen_fnvtw_legion_town": "军团试验据点",
+            "provinces_onscreen_fnvtw_legion_town_province": "军团试验据点",
+            "start_pos_settlements_onscreen_name_settlement:settlement:fnvtw_legion_town2140100102": "军团试验据点",
+        })
 
 
 @unittest.skipUnless(os.environ.get("FNVTW_INTEGRATION") == "1", "需启用真实工具集成检查")
