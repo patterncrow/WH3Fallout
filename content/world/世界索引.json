@@ -1,0 +1,1281 @@
+{
+  "schema_version": 1,
+  "kind": "world",
+  "id": "WH3-FALLOUT-WORLD",
+  "name": "废土战役重要节点图",
+  "status": "助手初设",
+  "note": "紧凑四区战役布局，莫哈维为最大区。区域轮廓沿城镇、通路和地形组织。",
+  "groups": {
+    "regions": {
+      "R02": {
+        "name": "南部干线"
+      },
+      "R04": {
+        "name": "河岸战区"
+      },
+      "R05": {
+        "name": "军团东岸"
+      },
+      "R08": {
+        "name": "南部辐射荒野与大分水岭"
+      },
+      "R11": {
+        "name": "大山脉封闭盆地"
+      },
+      "R12": {
+        "name": "马德雷封闭城区"
+      },
+      "R01": {
+        "name": "莫哈维西部边疆与共和国门户"
+      },
+      "R09": {
+        "name": "西北航空与旧设施区"
+      },
+      "R07": {
+        "name": "北方峡谷与山地草原"
+      },
+      "R10": {
+        "name": "远东北工业废墟"
+      },
+      "R03": {
+        "name": "维加斯"
+      },
+      "R06": {
+        "name": "中北交通"
+      }
+    },
+    "provinces": {
+      "P03": {
+        "name": "南部干线",
+        "region": "R02"
+      },
+      "P07": {
+        "name": "西岸防线",
+        "region": "R04"
+      },
+      "P08": {
+        "name": "河湾通路",
+        "region": "R04"
+      },
+      "P09": {
+        "name": "军团东岸",
+        "region": "R05"
+      },
+      "P21": {
+        "name": "大山脉外环",
+        "region": "R11"
+      },
+      "P28": {
+        "name": "东南入口荒野",
+        "region": "R08"
+      },
+      "P01": {
+        "name": "西关边境",
+        "region": "R01"
+      },
+      "P02": {
+        "name": "西部山口",
+        "region": "R01"
+      },
+      "P04": {
+        "name": "南缘聚落",
+        "region": "R02"
+      },
+      "P05": {
+        "name": "维加斯",
+        "region": "R03"
+      },
+      "P06": {
+        "name": "麦卡伦接应区",
+        "region": "R02"
+      },
+      "P10": {
+        "name": "东部荒原",
+        "region": "R05"
+      },
+      "P11": {
+        "name": "北路城镇",
+        "region": "R06"
+      },
+      "P12": {
+        "name": "北部荒野",
+        "region": "R06"
+      },
+      "P13": {
+        "name": "锡安西峡",
+        "region": "R07"
+      },
+      "P14": {
+        "name": "锡安东峡",
+        "region": "R07"
+      },
+      "P15": {
+        "name": "大分水岭",
+        "region": "R08"
+      },
+      "P16": {
+        "name": "西部旧军事带",
+        "region": "R01"
+      },
+      "P17": {
+        "name": "西北航空走廊",
+        "region": "R09"
+      },
+      "P18": {
+        "name": "东北山地技术区",
+        "region": "R10"
+      },
+      "P19": {
+        "name": "东北聚落群",
+        "region": "R10"
+      },
+      "P20": {
+        "name": "东北工业区",
+        "region": "R10"
+      },
+      "P22": {
+        "name": "大山脉中枢",
+        "region": "R11"
+      },
+      "P23": {
+        "name": "马德雷",
+        "region": "R12"
+      },
+      "P25": {
+        "name": "草原驻地",
+        "region": "R07"
+      },
+      "P26": {
+        "name": "南部废墟过渡",
+        "region": "R08"
+      },
+      "P27": {
+        "name": "深南辐射荒野",
+        "region": "R08"
+      },
+      "P29": {
+        "name": "北方山地平原",
+        "region": "R07"
+      },
+      "P30": {
+        "name": "东北旧城群",
+        "region": "R10"
+      }
+    },
+    "towns": {
+      "P03A": {
+        "name": "南线军营",
+        "province": "P03",
+        "faction": "F01"
+      },
+      "P03B": {
+        "name": "公路补给站",
+        "province": "P03",
+        "faction": "F01"
+      },
+      "P03C": {
+        "name": "废旧惩戒所",
+        "province": "P03",
+        "faction": "L02"
+      },
+      "P07A": {
+        "name": "西岸大坝堡垒",
+        "province": "P07",
+        "faction": "F01"
+      },
+      "P07B": {
+        "name": "河岸补给镇",
+        "province": "P07",
+        "faction": "F04-河防"
+      },
+      "P07C": {
+        "name": "西岸渡口",
+        "province": "P07",
+        "faction": "F04-河防"
+      },
+      "P08A": {
+        "name": "东岸桥头",
+        "province": "P08",
+        "faction": "F05"
+      },
+      "P08B": {
+        "name": "浅滩村",
+        "province": "P08",
+        "faction": "F08-河湾"
+      },
+      "P08C": {
+        "name": "南湾渡口",
+        "province": "P08",
+        "faction": "L21-河匪"
+      },
+      "P09A": {
+        "name": "征服军营",
+        "province": "P09",
+        "faction": "F05"
+      },
+      "P09B": {
+        "name": "东岸军需镇",
+        "province": "P09",
+        "faction": "F05"
+      },
+      "P09C": {
+        "name": "边疆部落堡",
+        "province": "P09",
+        "faction": "F08-东岸"
+      },
+      "P21B": {
+        "name": "废弃试验区",
+        "province": "P21",
+        "faction": "失控实验体守军"
+      },
+      "P28A": {
+        "name": "旧雷达荒台",
+        "province": "P28",
+        "faction": "L21-雷达匪"
+      },
+      "P01A": {
+        "name": "游骑兵前进营",
+        "province": "P01",
+        "faction": "F02"
+      },
+      "P01B": {
+        "name": "西关贸易站",
+        "province": "P01",
+        "faction": "F04-西关"
+      },
+      "P01C": {
+        "name": "干谷哨所",
+        "province": "P01",
+        "faction": "L21-西路"
+      },
+      "P02A": {
+        "name": "红岩据点",
+        "province": "P02",
+        "faction": "L21-红岩占领者"
+      },
+      "P02B": {
+        "name": "旧矿镇",
+        "province": "P02",
+        "faction": "L21-矿匪"
+      },
+      "P02C": {
+        "name": "隐蔽山堡",
+        "province": "P02",
+        "faction": "F12"
+      },
+      "P04A": {
+        "name": "共同体避难所城",
+        "province": "P04",
+        "faction": "L13"
+      },
+      "P04B": {
+        "name": "民兵村",
+        "province": "P04",
+        "faction": "L22-南民兵"
+      },
+      "P04C": {
+        "name": "干井营地",
+        "province": "P04",
+        "faction": "L21-南匪"
+      },
+      "P05A": {
+        "name": "幸运38",
+        "province": "P05",
+        "faction": "F10"
+      },
+      "P05B": {
+        "name": "三大家族赌场区",
+        "province": "P05",
+        "faction": "家族联合控制方"
+      },
+      "P05C": {
+        "name": "猫王帮自由城",
+        "province": "P05",
+        "faction": "L06"
+      },
+      "P05D": {
+        "name": "恶魔帮第三避难所",
+        "province": "P05",
+        "faction": "L01"
+      },
+      "P06A": {
+        "name": "麦卡伦营区",
+        "province": "P06",
+        "faction": "F03"
+      },
+      "P10A": {
+        "name": "暗刃营",
+        "province": "P10",
+        "faction": "F06"
+      },
+      "P10B": {
+        "name": "荒原据点",
+        "province": "P10",
+        "faction": "待定-P10B"
+      },
+      "P10C": {
+        "name": "黄沙部落",
+        "province": "P10",
+        "faction": "F08-荒原"
+      },
+      "P11A": {
+        "name": "北路集市",
+        "province": "P11",
+        "faction": "L12-北商镇"
+      },
+      "P11B": {
+        "name": "空军基地",
+        "province": "P11",
+        "faction": "F32"
+      },
+      "P11C": {
+        "name": "辐射高台",
+        "province": "P11",
+        "faction": "F23"
+      },
+      "P12A": {
+        "name": "雅各布斯聚落",
+        "province": "P12",
+        "faction": "L11"
+      },
+      "P12B": {
+        "name": "火箭研究院",
+        "province": "P12",
+        "faction": "F27"
+      },
+      "P12C": {
+        "name": "北荒旧营",
+        "province": "P12",
+        "faction": "L21-北荒匪"
+      },
+      "P13A": {
+        "name": "死马山寨",
+        "province": "P13",
+        "faction": "F18"
+      },
+      "P13B": {
+        "name": "峡口守望",
+        "province": "P13",
+        "faction": "F18"
+      },
+      "P13C": {
+        "name": "旧公路村",
+        "province": "P13",
+        "faction": "L21-峡匪"
+      },
+      "P14A": {
+        "name": "白腿战营",
+        "province": "P14",
+        "faction": "F17"
+      },
+      "P14B": {
+        "name": "悲伤部落寨",
+        "province": "P14",
+        "faction": "F19"
+      },
+      "P14C": {
+        "name": "东峡据点",
+        "province": "P14",
+        "faction": "F17"
+      },
+      "P15A": {
+        "name": "尤利西斯神殿",
+        "province": "P15",
+        "faction": "F34"
+      },
+      "P15B": {
+        "name": "霍普维尔入口",
+        "province": "P15",
+        "faction": "F34"
+      },
+      "P15C": {
+        "name": "高架公路军事区",
+        "province": "P15",
+        "faction": "F34"
+      },
+      "P15D": {
+        "name": "阿什顿废墟",
+        "province": "P15",
+        "faction": "F34"
+      },
+      "P16A": {
+        "name": "统一教中枢",
+        "province": "P16",
+        "faction": "F25"
+      },
+      "P16B": {
+        "name": "改造营地",
+        "province": "P16",
+        "faction": "F25"
+      },
+      "P16C": {
+        "name": "荒废试验站",
+        "province": "P16",
+        "faction": "L21-试验站匪"
+      },
+      "P17A": {
+        "name": "复归基地",
+        "province": "P17",
+        "faction": "F14"
+      },
+      "P17B": {
+        "name": "旧航空站",
+        "province": "P17",
+        "faction": "L15-航空站枪手"
+      },
+      "P17C": {
+        "name": "货运设施",
+        "province": "P17",
+        "faction": "L15-北枪手"
+      },
+      "P18A": {
+        "name": "山堡分部",
+        "province": "P18",
+        "faction": "F13-哈丁"
+      },
+      "P18B": {
+        "name": "芳邻镇",
+        "province": "P18",
+        "faction": "F26"
+      },
+      "P18C": {
+        "name": "工业山镇",
+        "province": "P18",
+        "faction": "L15-山枪手"
+      },
+      "P19A": {
+        "name": "民兵议事镇",
+        "province": "P19",
+        "faction": "F35"
+      },
+      "P19B": {
+        "name": "交易枢纽",
+        "province": "P19",
+        "faction": "L12-东商镇"
+      },
+      "P19C": {
+        "name": "锈机工坊",
+        "province": "P19",
+        "faction": "L16"
+      },
+      "P20A": {
+        "name": "学院设施城",
+        "province": "P20",
+        "faction": "F37"
+      },
+      "P20B": {
+        "name": "合成人前哨",
+        "province": "P20",
+        "faction": "F37"
+      },
+      "P20C": {
+        "name": "阿卡迪亚",
+        "province": "P20",
+        "faction": "F40"
+      },
+      "P21A": {
+        "name": "设施守备区",
+        "province": "P21",
+        "faction": "F21"
+      },
+      "P21C": {
+        "name": "机械维修区",
+        "province": "P21",
+        "faction": "F42"
+      },
+      "P22A": {
+        "name": "智脑中枢",
+        "province": "P22",
+        "faction": "F21"
+      },
+      "P22B": {
+        "name": "生物实验区",
+        "province": "P22",
+        "faction": "失控实验体守军"
+      },
+      "P22C": {
+        "name": "研究档案馆",
+        "province": "P22",
+        "faction": "F42"
+      },
+      "P23A": {
+        "name": "马德雷赌场",
+        "province": "P23",
+        "faction": "F28"
+      },
+      "P25A": {
+        "name": "草原汗庭",
+        "province": "P25",
+        "faction": "F16"
+      },
+      "P25B": {
+        "name": "草原路集",
+        "province": "P25",
+        "faction": "普通部落"
+      },
+      "P26A": {
+        "name": "断桥废墟",
+        "province": "P26",
+        "faction": "L21-南废匪"
+      },
+      "P26B": {
+        "name": "南隘隐堡",
+        "province": "P26",
+        "faction": "F13-南隘"
+      },
+      "P26C": {
+        "name": "适生野爪领地",
+        "province": "P26",
+        "faction": "F24"
+      },
+      "P27A": {
+        "name": "枯井接应站",
+        "province": "P27",
+        "faction": "L12-南接应"
+      },
+      "P27B": {
+        "name": "黑岩废墟",
+        "province": "P27",
+        "faction": "L21-黑岩匪"
+      },
+      "P27C": {
+        "name": "灰脊隐堡",
+        "province": "P27",
+        "faction": "F13-灰脊"
+      },
+      "P28B": {
+        "name": "红雾边营",
+        "province": "P28",
+        "faction": "L21-红雾匪"
+      },
+      "P28C": {
+        "name": "荒原接应村",
+        "province": "P28",
+        "faction": "L22-荒原村"
+      },
+      "P29A": {
+        "name": "山口集市",
+        "province": "P29",
+        "faction": "普通部落-山口"
+      },
+      "P29B": {
+        "name": "高地村寨",
+        "province": "P29",
+        "faction": "普通部落-高地"
+      },
+      "P29C": {
+        "name": "东行接应站",
+        "province": "P29",
+        "faction": "L12-东行商站"
+      },
+      "P30A": {
+        "name": "旧城民居",
+        "province": "P30",
+        "faction": "L22-旧城民兵"
+      },
+      "P30B": {
+        "name": "工业市场",
+        "province": "P30",
+        "faction": "L12-工业商镇"
+      },
+      "P30C": {
+        "name": "锻铁工区",
+        "province": "P30",
+        "faction": "L17"
+      },
+      "P30D": {
+        "name": "旧铁道废墟",
+        "province": "P30",
+        "faction": "L21-铁道匪"
+      }
+    },
+    "factions": {
+      "F01": {
+        "name": "摩尔指挥集团"
+      },
+      "F04-河防": {
+        "name": "NCR河防地方集团"
+      },
+      "F05": {
+        "name": "拉尼乌斯征服军"
+      },
+      "F08-河湾": {
+        "name": "河湾地方部落"
+      },
+      "F08-东岸": {
+        "name": "东岸地方部落"
+      },
+      "L02": {
+        "name": "炸药帮"
+      },
+      "L21-河匪": {
+        "name": "南湾河匪"
+      },
+      "L21-试验站匪": {
+        "name": "试验站匪"
+      },
+      "失控实验体守军": {
+        "name": "失控实验体守军"
+      },
+      "L21-雷达匪": {
+        "name": "雷达荒台匪帮"
+      },
+      "F02": {
+        "name": "F02"
+      },
+      "F04-西关": {
+        "name": "F04-西关"
+      },
+      "L21-西路": {
+        "name": "L21-西路"
+      },
+      "L21-红岩占领者": {
+        "name": "L21-红岩占领者"
+      },
+      "L21-矿匪": {
+        "name": "L21-矿匪"
+      },
+      "F12": {
+        "name": "莫哈维兄弟会"
+      },
+      "L13": {
+        "name": "L13"
+      },
+      "L22-南民兵": {
+        "name": "L22-南民兵"
+      },
+      "L21-南匪": {
+        "name": "L21-南匪"
+      },
+      "F10": {
+        "name": "豪斯／好好先生互斥控制方"
+      },
+      "家族联合控制方": {
+        "name": "家族联合控制方"
+      },
+      "L06": {
+        "name": "L06"
+      },
+      "L01": {
+        "name": "L01"
+      },
+      "F03": {
+        "name": "F03"
+      },
+      "F06": {
+        "name": "F06"
+      },
+      "待定-P10B": {
+        "name": "待定-P10B"
+      },
+      "F08-荒原": {
+        "name": "F08-荒原"
+      },
+      "L12-北商镇": {
+        "name": "L12-北商镇"
+      },
+      "F32": {
+        "name": "大炮族"
+      },
+      "F23": {
+        "name": "塔比莎"
+      },
+      "L11": {
+        "name": "L11"
+      },
+      "F27": {
+        "name": "杰森伟大旅程"
+      },
+      "L21-北荒匪": {
+        "name": "L21-北荒匪"
+      },
+      "F18": {
+        "name": "死马部落"
+      },
+      "L21-峡匪": {
+        "name": "L21-峡匪"
+      },
+      "F17": {
+        "name": "白腿部落"
+      },
+      "F19": {
+        "name": "悲伤部落"
+      },
+      "F34": {
+        "name": "尤利西斯"
+      },
+      "F25": {
+        "name": "主教统一教"
+      },
+      "F14": {
+        "name": "英克雷复归集团"
+      },
+      "L15-航空站枪手": {
+        "name": "L15-航空站枪手"
+      },
+      "L15-北枪手": {
+        "name": "L15-北枪手"
+      },
+      "F13-哈丁": {
+        "name": "F13-哈丁"
+      },
+      "F26": {
+        "name": "汉考克芳邻镇"
+      },
+      "L15-山枪手": {
+        "name": "L15-山枪手"
+      },
+      "F35": {
+        "name": "义勇军"
+      },
+      "L12-东商镇": {
+        "name": "L12-东商镇"
+      },
+      "L16": {
+        "name": "L16"
+      },
+      "F37": {
+        "name": "学院"
+      },
+      "F40": {
+        "name": "阿卡迪亚"
+      },
+      "F21": {
+        "name": "智脑联合体"
+      },
+      "F42": {
+        "name": "莫比乌斯"
+      },
+      "F28": {
+        "name": "以利亚马德雷"
+      },
+      "F16": {
+        "name": "大汉帮"
+      },
+      "普通部落": {
+        "name": "普通部落"
+      },
+      "L21-南废匪": {
+        "name": "L21-南废匪"
+      },
+      "F13-南隘": {
+        "name": "F13-南隘"
+      },
+      "F24": {
+        "name": "死亡爪女王"
+      },
+      "L12-南接应": {
+        "name": "L12-南接应"
+      },
+      "L21-黑岩匪": {
+        "name": "L21-黑岩匪"
+      },
+      "F13-灰脊": {
+        "name": "F13-灰脊"
+      },
+      "L21-红雾匪": {
+        "name": "L21-红雾匪"
+      },
+      "L22-荒原村": {
+        "name": "L22-荒原村"
+      },
+      "普通部落-山口": {
+        "name": "普通部落-山口"
+      },
+      "普通部落-高地": {
+        "name": "普通部落-高地"
+      },
+      "L12-东行商站": {
+        "name": "L12-东行商站"
+      },
+      "L22-旧城民兵": {
+        "name": "L22-旧城民兵"
+      },
+      "L12-工业商镇": {
+        "name": "L12-工业商镇"
+      },
+      "L17": {
+        "name": "L17"
+      },
+      "L21-铁道匪": {
+        "name": "L21-铁道匪"
+      }
+    }
+  },
+  "maps": [
+    {
+      "id": "MAP-MOJAVE",
+      "name": "莫哈维与西北",
+      "file": "莫哈维主体.json",
+      "status": "sample"
+    },
+    {
+      "id": "MAP-NORTH",
+      "name": "北方峡谷与草原",
+      "file": "北侧接续.json",
+      "status": "sample"
+    },
+    {
+      "id": "MAP-NORTHEAST",
+      "name": "远东北工业废墟",
+      "file": "东北工业.json",
+      "status": "sample"
+    },
+    {
+      "id": "MAP-SOUTH",
+      "name": "南部荒野与封闭地区",
+      "file": "南部荒野.json",
+      "status": "sample"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ROAD-DAM",
+      "name": "大坝正面跨区线",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "6,1"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "8,1"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "双向陆路；P07A—P09A唯一大坝跨岸线。",
+        "代价为缩尺跨边规划值1，文件切换本身不另收费，已有桥段成本另列。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#七南线河岸东岸空间布局初设",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "6,1",
+          "7,1",
+          "8,1"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-BAY",
+      "name": "南湾迂回跨区线",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "6,5"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "8,5"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "双向陆路；P08C—P08B南湾跨岸线。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#七南线河岸东岸空间布局初设",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "6,5",
+          "7,5",
+          "8,5"
+        ]
+      }
+    },
+    {
+      "id": "GATE-BIGMT",
+      "name": "大山脉特殊往返",
+      "type": "special",
+      "a": {
+        "map": "MAP-SOUTH",
+        "tile": "5,-2"
+      },
+      "b": {
+        "map": "MAP-SOUTH",
+        "tile": "5,3"
+      },
+      "direction": "both",
+      "cost": null,
+      "effects": [],
+      "conditions": [
+        "外侧入口位于深入南部荒野的P28A附近，内侧为P21B外围安全空间。",
+        "A→B：外来玩家军队可进入；首次进入外交由事件第五节四选一处理；外部AI不主动传送进入。",
+        "B→A：外来远征军可撤回；当地两派统一前不得外出。",
+        "本地玩家消灭另一方后，胜方获得出区资格；本地AI不自行统一开放。",
+        "杰森玩家远航破障为独立剧情例外，按事件第十一节；独立事务官通行仍待核。",
+        "特殊入口的费用、行动力和独立事务官权限待技术选型，cost=null明确表示未定。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/事件/普通事件设计.md#五大山脉统一与开放"
+    },
+    {
+      "id": "ROAD-MCCARRAN",
+      "name": "都市河防接应",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "3,0"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "4,2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "3,0",
+          "3,1",
+          "3,2",
+          "4,2"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-SOUTHWEST",
+      "name": "南部干线接续",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "-2,3"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "-4,5"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "-2,3",
+          "-3,3",
+          "-4,4",
+          "-4,5"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-SUPPLY",
+      "name": "补给站都市接续",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "0,3"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "3,0"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "0,3",
+          "1,2",
+          "2,1",
+          "3,0"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-DEPTH",
+      "name": "军团纵深接续",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "11,3"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "13,2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "11,3",
+          "12,2",
+          "13,2"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-ZION",
+      "name": "锡安南向商路",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "2,-5"
+      },
+      "b": {
+        "map": "MAP-NORTH",
+        "tile": "-2,3"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-TRADE-E",
+      "name": "锡安东向商路",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-NORTH",
+        "tile": "5,0"
+      },
+      "b": {
+        "map": "MAP-NORTHEAST",
+        "tile": "-4,-1"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-AIR",
+      "name": "西北山口贸易",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "-6,-4"
+      },
+      "b": {
+        "map": "MAP-NORTH",
+        "tile": "0,-2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-AIR-W",
+      "name": "西北回收接线",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "-6,-2"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "-5,-2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-MOJAVE",
+        "tiles": [
+          "-6,-2",
+          "-5,-2"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-INDUSTRY",
+      "name": "莫哈维东北通路",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "13,2"
+      },
+      "b": {
+        "map": "MAP-NORTHEAST",
+        "tile": "1,2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-WASTE-W",
+      "name": "南部荒野西接线",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-MOJAVE",
+        "tile": "-4,5"
+      },
+      "b": {
+        "map": "MAP-SOUTH",
+        "tile": "-5,-2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-WASTE-E",
+      "name": "南部干谷东接线",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-SOUTH",
+        "tile": "3,-1"
+      },
+      "b": {
+        "map": "MAP-MOJAVE",
+        "tile": "12,5"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    },
+    {
+      "id": "ROAD-DIVIDE",
+      "name": "深南峡谷唯一入口",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-SOUTH",
+        "tile": "-1,0"
+      },
+      "b": {
+        "map": "MAP-SOUTH",
+        "tile": "-2,3"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-SOUTH",
+        "tiles": [
+          "-1,0",
+          "-1,1",
+          "-2,2",
+          "-2,3"
+        ]
+      }
+    },
+    {
+      "id": "ROAD-RADAR",
+      "name": "东南雷达荒台支路",
+      "type": "ordinary",
+      "a": {
+        "map": "MAP-SOUTH",
+        "tile": "3,-1"
+      },
+      "b": {
+        "map": "MAP-SOUTH",
+        "tile": "5,-2"
+      },
+      "direction": "both",
+      "cost": 1,
+      "effects": [],
+      "conditions": [
+        "沿既有通行、外交与地区权限；抽象跨区边不额外生成军队。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+      "path": {
+        "map": "MAP-SOUTH",
+        "tiles": [
+          "3,-1",
+          "4,-2",
+          "5,-2"
+        ]
+      }
+    },
+    {
+      "id": "GATE-MADRE",
+      "name": "马德雷特殊入口",
+      "type": "special",
+      "a": {
+        "map": "MAP-SOUTH",
+        "tile": "7,-1"
+      },
+      "b": {
+        "map": "MAP-SOUTH",
+        "tile": "9,3"
+      },
+      "direction": "both",
+      "cost": null,
+      "effects": [],
+      "conditions": [
+        "仅经马德雷独立特殊入口出入，沿事件第二节结算；不连通大山脉盆地。"
+      ],
+      "status": "complete",
+      "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架"
+    }
+  ],
+  "references": [
+    {
+      "title": "新维加斯地图与地点",
+      "url": "https://fallout.fandom.com/wiki/Fallout%3A_New_Vegas_world_map"
+    },
+    {
+      "title": "辐射4世界地图",
+      "url": "https://fallout.fandom.com/wiki/Fallout_4_world_map"
+    }
+  ]
+}

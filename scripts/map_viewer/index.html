@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>废土战役 · 地图工作台</title>
+  <link rel="stylesheet" href="viewer.css">
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="eyebrow">WH3 FALLOUT / WORLD PLANNING</span><h1>废土战役 · 地图工作台</h1></div>
+    <label class="load button">加载／补选 JSON<input id="files" type="file" accept=".json,application/json" multiple></label>
+    <button id="fit">居中全图</button>
+  </header>
+  <main>
+    <aside class="left">
+      <h2>区域地图</h2><div id="maps"></div>
+      <h2>寻找位置</h2><label for="search">ID 或名称</label><input id="search" type="search" placeholder="例如 P07A、大坝、F01"><div id="results" aria-live="polite"></div>
+      <h2>显示图层</h2><div id="layers"></div>
+      <h2>突出显示</h2><label for="kind">地表要素</label><select id="kind"><option value="">全部要素</option><option value="town">城镇</option><option value="landmark">地标</option><option value="portal">通路／特殊入口</option><option value="task">任务地点</option></select>
+      <label for="province">行省</label><select id="province"><option value="">全部行省</option></select>
+    </aside>
+    <section class="canvas" aria-label="地图画布">
+      <div id="mapTitle" class="map-title">尚未加载地图</div>
+      <svg id="map" role="group" aria-label="六边形规划地图，可用方向键平移" tabindex="0"><g id="scene"></g></svg>
+      <div id="empty"><h2>从世界索引开始</h2><p>点击“加载／补选 JSON”，在 content/world 中多选<br>世界索引.json 和区域 JSON。也可分批补选。</p></div>
+      <div class="zoom"><button id="out" aria-label="缩小">−</button><output id="zoom">100%</output><button id="in" aria-label="放大">＋</button></div>
+      <details id="legendPanel" class="legend-panel" open><summary>图例</summary><ul class="legend"><li><i class="land"></i>普通陆地／默认开放边</li><li><i class="water"></i>水面／水体边</li><li><i class="blocked"></i>关闭边（虚线）</li><li><i class="bridge"></i>桥面／道路</li><li><i class="border"></i>辖区边界（点线）</li></ul></details>
+    </section>
+    <aside class="right"><h2>地点详情</h2><div id="details"><p class="muted">选择一个地块，查看辖区、对象与六个方向。</p></div><details id="issuePanel" open><summary id="issueSummary">加载与配置</summary><div id="issues" aria-live="polite"></div></details></aside>
+  </main>
+  <footer id="status" role="status">未加载</footer>
+</body>
+</html>

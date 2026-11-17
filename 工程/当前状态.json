@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T10:42:06+08:00",
-  "batch_id": "REVIEW-RACE-DETAIL-20261110",
-  "phase": "race-detail-reviewed",
-  "objective": "种族成套初设整体复核与必要修正完成，文档交付按用户要求提交；技术实测继续暂停。",
+  "updated_at": "2026-11-10T15:30:12+08:00",
+  "batch_id": "MAP-LAYOUT-20261110",
+  "phase": "regional-layout-refinement-completed",
+  "objective": "地图宏观要求与区域路线初设已统一，后续由世界对话沿现有正文继续细化。",
   "authority": {
     "design": "文档导航.md",
     "execution_state": "工程/当前状态.json",
@@ -30,20 +30,20 @@
       "task": "整体工程与关键任务",
       "owner": "本对话",
       "entry": "项目工程实施框架.md",
-      "status": "本批种族细化与跨领域接口复核收口；设计初设未制作实测"
+      "status": "地图方向、锡安商路、兄弟会按需支部及跨领域地点引用已统一；已收回世界细化并完成静态自检"
     },
     {
       "task": "种族与派系设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/设计总纲.md",
-      "status": "人物、科技、建筑、兵源及16个非NCR可玩派系成长样本已成套补齐；具体宿主与参数仍为初设",
+      "status": "F26统一为汉考克／芳邻镇，不可玩传奇AI；共享种族与既有成长初设保持，人物及原型组合仍待实现",
       "owner_thread": "01a19bfd-f717-7061-ad97-fe16fa4f13e3"
     },
     {
       "task": "世界与战役设计",
       "owner": "领域原聊天",
       "entry": "文档/功能设计/地图/战役地图设计.md",
-      "status": "完成只读空间复核并就地修正事件／地图的必要接口；未扩图或新开设计范围",
+      "status": "已完成29省85城节点和通路初设，四个数字地图分区覆盖85城；实际地形尺度与游戏地图待制作",
       "owner_thread": "01a19cdd-4b2f-77d1-9b6b-743ad8aea4f1"
     },
     {
@@ -104,12 +104,12 @@
   },
   "cross_thread_coordination": {
     "mode": "A_master_four_original_workers",
-    "status": "round_completed",
+    "status": "completed",
     "guide": "工程/跨对话协作.md",
     "evidence": "work/codex-coordination/验收结果.json",
-    "last_review": "work/coordination-20261110-race-detail.json#commit_review",
+    "last_review": "work/coordination-20261110-map-layout.json#review",
     "background_note": "A本轮收口后不会仅因桥接脚本存在而自动后台持续唤醒。",
-    "current_batch": "work/coordination-20261110-race-detail.json"
+    "current_batch": "work/coordination-20261110-map-layout.json"
   },
   "governance_baseline": {
     "version": "1.4",
@@ -119,13 +119,11 @@
   },
   "handoff": {
     "next_steps": [
-      "以设计总纲及现有各种族入口审阅人物／研究／建设工作样本；普通参数继续由助手收敛。",
-      "19个可玩选项沿NCR既有设计及16个新成长样本接续；实际开局编成尚未写入startpos。",
-      "后续世界、装备与能力按种族现有配置承接，不重复建立军队／成长规则。",
-      "特殊恢复量、单位／人物动作与跨文化接口沿既有DV-001—054处理；实际测试仍暂停，须用户明确恢复。"
+      "世界对话沿区域规模和商路要求继续细化实际地块、地形与城镇密度；已有29省85城是节点初设。",
+      "按实际新增地点衔接派系开局、建筑资格与任务空间引用；技术实测仍须用户明确恢复。"
     ],
-    "operator_action": "完成正文一致性、路径／锚点、表格、JSON和提交范围静态检查，按用户要求提交文档；未运行构建、测试、游戏或推送。",
-    "restoration_boundary": "本批未修改content、制作脚本、实际开局、游戏、存档或外部配置。",
+    "operator_action": "本批完成地图责任正文、必要种族及事件引用和规划JSON更新；静态核对路径、锚点、旧方位、支部限制及固定事件原文。",
+    "restoration_boundary": "世界规划JSON及查看器已纳入交付，实际开局、存档及外部配置由技术职责维护。",
     "version_control": {
       "last_delivery": {
         "commit": "HEAD",
@@ -136,9 +134,9 @@
         "scope": "包含本批工程日志条目的提交；精确SHA与文件清单见record。"
       },
       "current_batch": {
-        "id": "REVIEW-RACE-DETAIL-20261110",
-        "authorization": "用户要求整体检查、修正后提交",
-        "commit": "随本批记录交付，精确SHA见提交回执",
+        "id": "MAP-LAYOUT-20261110",
+        "authorization": "用户要求放开兄弟会支部限制、落实地图方向并交世界细化",
+        "commit": "用户授权本地提交，提交范围为地图设计、数字地图及其配套改动",
         "push": "未授权，未执行"
       }
     }

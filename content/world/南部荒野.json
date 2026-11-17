@@ -1,0 +1,3514 @@
+{
+  "schema_version": 1,
+  "kind": "region",
+  "id": "MAP-SOUTH",
+  "name": "南部荒野与封闭地区",
+  "status": "助手初设／重要节点骨架",
+  "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+  "note": "紧凑连续地表规划。城镇、主路、地形与封闭区围栏一并布局。",
+  "tiles": [
+    {
+      "id": "-7,-2",
+      "q": -7,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-7,-1",
+      "q": -7,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-7,0",
+      "q": -7,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-7,1",
+      "q": -7,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-7,2",
+      "q": -7,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-7,3",
+      "q": -7,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-6,-3",
+      "q": -6,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-6,-2",
+      "q": -6,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-6,-1",
+      "q": -6,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-6,0",
+      "q": -6,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-6,1",
+      "q": -6,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-6,2",
+      "q": -6,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-6,3",
+      "q": -6,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,-4",
+      "q": -5,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-5,-3",
+      "q": -5,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-5,-2",
+      "q": -5,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-5,-1",
+      "q": -5,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-5,0",
+      "q": -5,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,1",
+      "q": -5,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,2",
+      "q": -5,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,3",
+      "q": -5,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,6",
+      "q": -5,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,7",
+      "q": -5,
+      "r": 7,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,8",
+      "q": -5,
+      "r": 8,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,9",
+      "q": -5,
+      "r": 9,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,10",
+      "q": -5,
+      "r": 10,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-5,11",
+      "q": -5,
+      "r": 11,
+      "terrain": "mountain",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-4,-5",
+      "q": -4,
+      "r": -5,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-4",
+      "q": -4,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-3",
+      "q": -4,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-2",
+      "q": -4,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-1",
+      "q": -4,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P26A",
+      "radiation": null
+    },
+    {
+      "id": "-4,0",
+      "q": -4,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-4,1",
+      "q": -4,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P26C",
+      "radiation": null
+    },
+    {
+      "id": "-4,2",
+      "q": -4,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-4,3",
+      "q": -4,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-4,4",
+      "q": -4,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-4,5",
+      "q": -4,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-4,6",
+      "q": -4,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-4,7",
+      "q": -4,
+      "r": 7,
+      "terrain": "mountain",
+      "jurisdiction": "P15D",
+      "radiation": null
+    },
+    {
+      "id": "-4,8",
+      "q": -4,
+      "r": 8,
+      "terrain": "mountain",
+      "jurisdiction": "P15D",
+      "radiation": null
+    },
+    {
+      "id": "-4,9",
+      "q": -4,
+      "r": 9,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-4,10",
+      "q": -4,
+      "r": 10,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-4,11",
+      "q": -4,
+      "r": 11,
+      "terrain": "mountain",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-3,-5",
+      "q": -3,
+      "r": -5,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-3,-4",
+      "q": -3,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-3,-3",
+      "q": -3,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-3,-2",
+      "q": -3,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-3,-1",
+      "q": -3,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-3,0",
+      "q": -3,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-3,1",
+      "q": -3,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-3,2",
+      "q": -3,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-3,3",
+      "q": -3,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-3,4",
+      "q": -3,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-3,5",
+      "q": -3,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-3,6",
+      "q": -3,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-3,7",
+      "q": -3,
+      "r": 7,
+      "terrain": "mountain",
+      "jurisdiction": "P15D",
+      "radiation": null
+    },
+    {
+      "id": "-3,8",
+      "q": -3,
+      "r": 8,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-3,9",
+      "q": -3,
+      "r": 9,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-3,10",
+      "q": -3,
+      "r": 10,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-3,11",
+      "q": -3,
+      "r": 11,
+      "terrain": "mountain",
+      "jurisdiction": "P27B",
+      "radiation": null
+    },
+    {
+      "id": "-2,-5",
+      "q": -2,
+      "r": -5,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-2,-4",
+      "q": -2,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-2,-3",
+      "q": -2,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-2,-2",
+      "q": -2,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "-2,-1",
+      "q": -2,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "-2,0",
+      "q": -2,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-2,1",
+      "q": -2,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-2,2",
+      "q": -2,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-2,3",
+      "q": -2,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-2,4",
+      "q": -2,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-2,5",
+      "q": -2,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-2,6",
+      "q": -2,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-2,7",
+      "q": -2,
+      "r": 7,
+      "terrain": "mountain",
+      "jurisdiction": "P15D",
+      "radiation": null
+    },
+    {
+      "id": "-2,8",
+      "q": -2,
+      "r": 8,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-2,9",
+      "q": -2,
+      "r": 9,
+      "terrain": "mountain",
+      "jurisdiction": "P15A",
+      "radiation": null
+    },
+    {
+      "id": "-2,10",
+      "q": -2,
+      "r": 10,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,-5",
+      "q": -1,
+      "r": -5,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-1,-4",
+      "q": -1,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P26B",
+      "radiation": null
+    },
+    {
+      "id": "-1,-3",
+      "q": -1,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "-1,-2",
+      "q": -1,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "-1,-1",
+      "q": -1,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,0",
+      "q": -1,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,1",
+      "q": -1,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,2",
+      "q": -1,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-1,3",
+      "q": -1,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P15B",
+      "radiation": null
+    },
+    {
+      "id": "-1,4",
+      "q": -1,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-1,5",
+      "q": -1,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P15C",
+      "radiation": null
+    },
+    {
+      "id": "-1,6",
+      "q": -1,
+      "r": 6,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,7",
+      "q": -1,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,8",
+      "q": -1,
+      "r": 8,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "-1,9",
+      "q": -1,
+      "r": 9,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,-4",
+      "q": 0,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "0,-3",
+      "q": 0,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "0,-2",
+      "q": 0,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "0,-1",
+      "q": 0,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,0",
+      "q": 0,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,1",
+      "q": 0,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,2",
+      "q": 0,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,3",
+      "q": 0,
+      "r": 3,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,4",
+      "q": 0,
+      "r": 4,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "0,5",
+      "q": 0,
+      "r": 5,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "1,-4",
+      "q": 1,
+      "r": -4,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "1,-3",
+      "q": 1,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P27C",
+      "radiation": null
+    },
+    {
+      "id": "1,-2",
+      "q": 1,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "1,-1",
+      "q": 1,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "1,0",
+      "q": 1,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "1,1",
+      "q": 1,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,-3",
+      "q": 2,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P27A",
+      "radiation": null
+    },
+    {
+      "id": "2,-2",
+      "q": 2,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,-1",
+      "q": 2,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,0",
+      "q": 2,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,1",
+      "q": 2,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,2",
+      "q": 2,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,3",
+      "q": 2,
+      "r": 3,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "2,4",
+      "q": 2,
+      "r": 4,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "2,5",
+      "q": 2,
+      "r": 5,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "2,6",
+      "q": 2,
+      "r": 6,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "2,7",
+      "q": 2,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "3,-3",
+      "q": 3,
+      "r": -3,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "3,-2",
+      "q": 3,
+      "r": -2,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "3,-1",
+      "q": 3,
+      "r": -1,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "3,0",
+      "q": 3,
+      "r": 0,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "3,1",
+      "q": 3,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28C",
+      "radiation": null
+    },
+    {
+      "id": "3,2",
+      "q": 3,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "3,3",
+      "q": 3,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "3,4",
+      "q": 3,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "3,5",
+      "q": 3,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P22A",
+      "radiation": null
+    },
+    {
+      "id": "3,6",
+      "q": 3,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P22A",
+      "radiation": null
+    },
+    {
+      "id": "3,7",
+      "q": 3,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "4,-4",
+      "q": 4,
+      "r": -4,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "4,-3",
+      "q": 4,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "4,-2",
+      "q": 4,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "4,-1",
+      "q": 4,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "4,0",
+      "q": 4,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "4,1",
+      "q": 4,
+      "r": 1,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "4,2",
+      "q": 4,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "4,3",
+      "q": 4,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "4,4",
+      "q": 4,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P21B",
+      "radiation": null
+    },
+    {
+      "id": "4,5",
+      "q": 4,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P22A",
+      "radiation": null
+    },
+    {
+      "id": "4,6",
+      "q": 4,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P22A",
+      "radiation": null
+    },
+    {
+      "id": "4,7",
+      "q": 4,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "5,-4",
+      "q": 5,
+      "r": -4,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "5,-3",
+      "q": 5,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "5,-2",
+      "q": 5,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "5,-1",
+      "q": 5,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "5,0",
+      "q": 5,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "5,1",
+      "q": 5,
+      "r": 1,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "5,2",
+      "q": 5,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "5,3",
+      "q": 5,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P21B",
+      "radiation": null
+    },
+    {
+      "id": "5,4",
+      "q": 5,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P21B",
+      "radiation": null
+    },
+    {
+      "id": "5,5",
+      "q": 5,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P22A",
+      "radiation": null
+    },
+    {
+      "id": "5,6",
+      "q": 5,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P22B",
+      "radiation": null
+    },
+    {
+      "id": "5,7",
+      "q": 5,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "6,-4",
+      "q": 6,
+      "r": -4,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "6,-3",
+      "q": 6,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "6,-2",
+      "q": 6,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "6,-1",
+      "q": 6,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "6,0",
+      "q": 6,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "6,1",
+      "q": 6,
+      "r": 1,
+      "terrain": "mountain",
+      "jurisdiction": "P21A",
+      "radiation": null
+    },
+    {
+      "id": "6,2",
+      "q": 6,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21B",
+      "radiation": null
+    },
+    {
+      "id": "6,3",
+      "q": 6,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P21B",
+      "radiation": null
+    },
+    {
+      "id": "6,4",
+      "q": 6,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P22B",
+      "radiation": null
+    },
+    {
+      "id": "6,5",
+      "q": 6,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P22B",
+      "radiation": null
+    },
+    {
+      "id": "6,6",
+      "q": 6,
+      "r": 6,
+      "terrain": "mountain",
+      "jurisdiction": "P22B",
+      "radiation": null
+    },
+    {
+      "id": "6,7",
+      "q": 6,
+      "r": 7,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "7,-4",
+      "q": 7,
+      "r": -4,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "7,-3",
+      "q": 7,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28A",
+      "radiation": null
+    },
+    {
+      "id": "7,-2",
+      "q": 7,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "7,-1",
+      "q": 7,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "7,0",
+      "q": 7,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "7,1",
+      "q": 7,
+      "r": 1,
+      "terrain": "mountain",
+      "jurisdiction": "P21C",
+      "radiation": null
+    },
+    {
+      "id": "7,2",
+      "q": 7,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21C",
+      "radiation": null
+    },
+    {
+      "id": "7,3",
+      "q": 7,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P21C",
+      "radiation": null
+    },
+    {
+      "id": "7,4",
+      "q": 7,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P22C",
+      "radiation": null
+    },
+    {
+      "id": "7,5",
+      "q": 7,
+      "r": 5,
+      "terrain": "mountain",
+      "jurisdiction": "P22B",
+      "radiation": null
+    },
+    {
+      "id": "7,6",
+      "q": 7,
+      "r": 6,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "8,-3",
+      "q": 8,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "8,-2",
+      "q": 8,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "8,-1",
+      "q": 8,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "8,0",
+      "q": 8,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "8,1",
+      "q": 8,
+      "r": 1,
+      "terrain": "mountain",
+      "jurisdiction": "P21C",
+      "radiation": null
+    },
+    {
+      "id": "8,2",
+      "q": 8,
+      "r": 2,
+      "terrain": "mountain",
+      "jurisdiction": "P21C",
+      "radiation": null
+    },
+    {
+      "id": "8,3",
+      "q": 8,
+      "r": 3,
+      "terrain": "mountain",
+      "jurisdiction": "P22C",
+      "radiation": null
+    },
+    {
+      "id": "8,4",
+      "q": 8,
+      "r": 4,
+      "terrain": "mountain",
+      "jurisdiction": "P22C",
+      "radiation": null
+    },
+    {
+      "id": "8,5",
+      "q": 8,
+      "r": 5,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,-3",
+      "q": 9,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,-2",
+      "q": 9,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,-1",
+      "q": 9,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,0",
+      "q": 9,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,1",
+      "q": 9,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "9,2",
+      "q": 9,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P23A",
+      "radiation": null
+    },
+    {
+      "id": "9,3",
+      "q": 9,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P23A",
+      "radiation": null
+    },
+    {
+      "id": "9,4",
+      "q": 9,
+      "r": 4,
+      "terrain": "ruins",
+      "jurisdiction": "P23A",
+      "radiation": null
+    },
+    {
+      "id": "9,5",
+      "q": 9,
+      "r": 5,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "10,1",
+      "q": 10,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "10,2",
+      "q": 10,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P23A",
+      "radiation": null
+    },
+    {
+      "id": "10,3",
+      "q": 10,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P23A",
+      "radiation": null
+    },
+    {
+      "id": "10,4",
+      "q": 10,
+      "r": 4,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "11,1",
+      "q": 11,
+      "r": 1,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "11,2",
+      "q": 11,
+      "r": 2,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    },
+    {
+      "id": "11,3",
+      "q": 11,
+      "r": 3,
+      "terrain": "desert",
+      "jurisdiction": "P28B",
+      "radiation": null
+    }
+  ],
+  "edges": [
+    {
+      "a": "-5,-2",
+      "b": "-4,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,-2",
+      "b": "-4,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,-2",
+      "b": "-5,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,-1",
+      "b": "-5,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,0",
+      "b": "-5,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,1",
+      "b": "-4,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-5,6",
+      "b": "-4,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,7",
+      "b": "-4,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,7",
+      "b": "-4,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,8",
+      "b": "-4,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,8",
+      "b": "-4,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,9",
+      "b": "-4,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,9",
+      "b": "-4,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,10",
+      "b": "-4,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,10",
+      "b": "-4,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-5,11",
+      "b": "-4,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,-3",
+      "b": "-3,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,-2",
+      "b": "-3,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,1",
+      "b": "-3,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,3",
+      "b": "-3,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,4",
+      "b": "-3,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,4",
+      "b": "-3,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,5",
+      "b": "-3,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,5",
+      "b": "-3,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,5",
+      "b": "-4,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,6",
+      "b": "-3,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,6",
+      "b": "-3,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,6",
+      "b": "-4,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,7",
+      "b": "-3,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,7",
+      "b": "-3,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,7",
+      "b": "-4,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,8",
+      "b": "-3,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,8",
+      "b": "-3,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,8",
+      "b": "-4,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,9",
+      "b": "-3,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,9",
+      "b": "-3,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,9",
+      "b": "-4,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,10",
+      "b": "-3,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,10",
+      "b": "-3,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,10",
+      "b": "-4,11",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-4,11",
+      "b": "-3,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,-3",
+      "b": "-3,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,-2",
+      "b": "-2,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,1",
+      "b": "-2,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,2",
+      "b": "-3,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,3",
+      "b": "-2,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,3",
+      "b": "-2,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,3",
+      "b": "-3,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,4",
+      "b": "-2,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,4",
+      "b": "-2,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,4",
+      "b": "-3,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,5",
+      "b": "-2,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,5",
+      "b": "-2,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,5",
+      "b": "-3,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,6",
+      "b": "-2,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,6",
+      "b": "-2,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,6",
+      "b": "-3,7",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,7",
+      "b": "-2,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,7",
+      "b": "-2,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,7",
+      "b": "-3,8",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,8",
+      "b": "-2,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,8",
+      "b": "-2,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,8",
+      "b": "-3,9",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,9",
+      "b": "-2,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,9",
+      "b": "-2,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,9",
+      "b": "-3,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,10",
+      "b": "-2,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,10",
+      "b": "-2,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-3,10",
+      "b": "-3,11",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,-2",
+      "b": "-1,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,-2",
+      "b": "-2,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,-1",
+      "b": "-1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,0",
+      "b": "-1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,2",
+      "b": "-1,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,2",
+      "b": "-1,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,2",
+      "b": "-2,3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,3",
+      "b": "-1,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,3",
+      "b": "-1,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,3",
+      "b": "-2,4",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,4",
+      "b": "-1,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,4",
+      "b": "-1,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,4",
+      "b": "-2,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,5",
+      "b": "-1,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,5",
+      "b": "-1,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,5",
+      "b": "-2,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,6",
+      "b": "-1,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,6",
+      "b": "-1,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,6",
+      "b": "-2,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,7",
+      "b": "-1,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,7",
+      "b": "-1,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,7",
+      "b": "-2,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,8",
+      "b": "-1,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,8",
+      "b": "-1,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,8",
+      "b": "-2,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,9",
+      "b": "-1,9",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,9",
+      "b": "-1,8",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-2,9",
+      "b": "-2,10",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,-2",
+      "b": "-1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,-1",
+      "b": "-1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,0",
+      "b": "0,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,0",
+      "b": "-1,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,1",
+      "b": "-1,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,2",
+      "b": "0,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,2",
+      "b": "0,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,2",
+      "b": "-1,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,3",
+      "b": "0,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,3",
+      "b": "0,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,3",
+      "b": "-1,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,4",
+      "b": "0,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,4",
+      "b": "0,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,4",
+      "b": "-1,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,5",
+      "b": "0,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,5",
+      "b": "0,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "-1,5",
+      "b": "-1,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "0,-1",
+      "b": "1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,-1",
+      "b": "2,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "2,-1",
+      "b": "3,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "2,2",
+      "b": "3,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,3",
+      "b": "3,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,3",
+      "b": "3,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,4",
+      "b": "3,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,4",
+      "b": "3,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,5",
+      "b": "3,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,5",
+      "b": "3,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,6",
+      "b": "3,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,6",
+      "b": "3,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "2,7",
+      "b": "3,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "3,-1",
+      "b": "4,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,-1",
+      "b": "4,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,1",
+      "b": "4,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "3,1",
+      "b": "3,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "3,6",
+      "b": "3,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "3,7",
+      "b": "4,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "4,-2",
+      "b": "5,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,-1",
+      "b": "5,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,0",
+      "b": "4,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "4,1",
+      "b": "5,0",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "4,2",
+      "b": "4,3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,3",
+      "b": "5,3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,3",
+      "b": "4,4",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,4",
+      "b": "4,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,5",
+      "b": "5,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,6",
+      "b": "4,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "4,7",
+      "b": "5,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "5,-1",
+      "b": "6,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "5,0",
+      "b": "5,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "5,1",
+      "b": "6,0",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "5,3",
+      "b": "6,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "5,3",
+      "b": "5,4",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "5,4",
+      "b": "5,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "5,5",
+      "b": "6,5",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "5,6",
+      "b": "5,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "5,7",
+      "b": "6,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "6,-1",
+      "b": "7,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "6,0",
+      "b": "6,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "6,1",
+      "b": "7,0",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "6,2",
+      "b": "7,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "6,5",
+      "b": "7,4",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "6,6",
+      "b": "7,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "6,6",
+      "b": "6,7",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "7,0",
+      "b": "7,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "7,1",
+      "b": "8,0",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "7,2",
+      "b": "7,3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "7,3",
+      "b": "7,4",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "7,5",
+      "b": "8,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "7,5",
+      "b": "7,6",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,0",
+      "b": "8,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,1",
+      "b": "9,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,1",
+      "b": "9,0",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,2",
+      "b": "9,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,2",
+      "b": "9,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,3",
+      "b": "9,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,3",
+      "b": "9,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,4",
+      "b": "9,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,4",
+      "b": "9,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,4",
+      "b": "8,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "8,5",
+      "b": "9,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "9,1",
+      "b": "9,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "9,2",
+      "b": "10,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "9,4",
+      "b": "10,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "9,4",
+      "b": "9,5",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,1",
+      "b": "10,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,2",
+      "b": "11,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,2",
+      "b": "11,1",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,3",
+      "b": "11,3",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,3",
+      "b": "11,2",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    },
+    {
+      "a": "10,3",
+      "b": "10,4",
+      "state": "closed",
+      "landform": "mountain",
+      "facility": "none",
+      "cost": 0,
+      "effects": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "P26A",
+      "type": "town",
+      "tile": "-5,-2"
+    },
+    {
+      "id": "P26B",
+      "type": "town",
+      "tile": "-3,-3"
+    },
+    {
+      "id": "P26C",
+      "type": "town",
+      "tile": "-5,1"
+    },
+    {
+      "id": "P27A",
+      "type": "town",
+      "tile": "-1,0"
+    },
+    {
+      "id": "P27B",
+      "type": "town",
+      "tile": "-3,1"
+    },
+    {
+      "id": "P27C",
+      "type": "town",
+      "tile": "-1,-2"
+    },
+    {
+      "id": "P28B",
+      "type": "town",
+      "tile": "7,-1"
+    },
+    {
+      "id": "P28C",
+      "type": "town",
+      "tile": "3,-1"
+    },
+    {
+      "id": "ROAD-WASTE-W-B",
+      "name": "南部荒野西接线",
+      "type": "portal",
+      "tile": "-5,-2",
+      "route": "ROAD-WASTE-W"
+    },
+    {
+      "id": "ROAD-WASTE-E-A",
+      "name": "南部干谷东接线",
+      "type": "portal",
+      "tile": "3,-1",
+      "route": "ROAD-WASTE-E"
+    },
+    {
+      "id": "ROAD-DIVIDE-A",
+      "name": "深南峡谷唯一入口",
+      "type": "portal",
+      "tile": "-1,0",
+      "route": "ROAD-DIVIDE"
+    },
+    {
+      "id": "ROAD-RADAR-A",
+      "name": "东南雷达荒台支路",
+      "type": "portal",
+      "tile": "3,-1",
+      "route": "ROAD-RADAR"
+    },
+    {
+      "id": "GATE-MADRE-A",
+      "name": "马德雷特殊入口",
+      "type": "portal",
+      "tile": "7,-1",
+      "route": "GATE-MADRE"
+    },
+    {
+      "id": "P15B",
+      "type": "town",
+      "tile": "-2,3"
+    },
+    {
+      "id": "P15C",
+      "type": "town",
+      "tile": "-2,5"
+    },
+    {
+      "id": "P15D",
+      "type": "town",
+      "tile": "-3,7"
+    },
+    {
+      "id": "P15A",
+      "type": "town",
+      "tile": "-3,9"
+    },
+    {
+      "id": "ROAD-DIVIDE-B",
+      "name": "深南峡谷唯一入口",
+      "type": "portal",
+      "tile": "-2,3",
+      "route": "ROAD-DIVIDE"
+    },
+    {
+      "id": "LM-WARHEAD",
+      "name": "大分水岭导弹中枢",
+      "type": "landmark",
+      "tile": "-3,9",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "P28A",
+      "type": "town",
+      "tile": "5,-2"
+    },
+    {
+      "id": "P21B",
+      "type": "town",
+      "tile": "5,3"
+    },
+    {
+      "id": "P21A",
+      "type": "town",
+      "tile": "4,2"
+    },
+    {
+      "id": "P21C",
+      "type": "town",
+      "tile": "7,2"
+    },
+    {
+      "id": "P22C",
+      "type": "town",
+      "tile": "7,4"
+    },
+    {
+      "id": "P22B",
+      "type": "town",
+      "tile": "6,5"
+    },
+    {
+      "id": "P22A",
+      "type": "town",
+      "tile": "4,5"
+    },
+    {
+      "id": "GATE-BIGMT-OUT",
+      "name": "大山脉外侧入口",
+      "type": "portal",
+      "tile": "5,-2",
+      "route": "GATE-BIGMT",
+      "note": ""
+    },
+    {
+      "id": "GATE-BIGMT-IN",
+      "name": "大山脉内侧安全落点",
+      "type": "portal",
+      "tile": "5,3",
+      "route": "GATE-BIGMT",
+      "note": ""
+    },
+    {
+      "id": "ROAD-RADAR-B",
+      "name": "东南雷达荒台支路",
+      "type": "portal",
+      "tile": "5,-2",
+      "route": "ROAD-RADAR"
+    },
+    {
+      "id": "LM-THINKTANK",
+      "name": "智脑中枢设施",
+      "type": "landmark",
+      "tile": "4,5",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "LM-SCORPION",
+      "name": "机器蝎防御核心",
+      "type": "landmark",
+      "tile": "7,4",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "P23A",
+      "type": "town",
+      "tile": "9,3"
+    },
+    {
+      "id": "GATE-MADRE-B",
+      "name": "马德雷特殊入口",
+      "type": "portal",
+      "tile": "9,3",
+      "route": "GATE-MADRE"
+    },
+    {
+      "id": "LM-MADRE",
+      "name": "马德雷赌场",
+      "type": "landmark",
+      "tile": "9,3",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    }
+  ]
+}

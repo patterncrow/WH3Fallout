@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "kind": "region",
+  "id": "MAP-NORTHEAST",
+  "name": "远东北工业废墟",
+  "status": "助手初设／重要节点骨架",
+  "source": "文档/功能设计/地图/战役地图设计.md#63-跨省通行骨架",
+  "note": "紧凑连续地表规划。城镇、主路、地形与封闭区围栏一并布局。",
+  "tiles": [
+    {
+      "id": "-5,-2",
+      "q": -5,
+      "r": -2,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-5,-1",
+      "q": -5,
+      "r": -1,
+      "terrain": "grassland",
+      "jurisdiction": "P19B",
+      "radiation": null
+    },
+    {
+      "id": "-5,0",
+      "q": -5,
+      "r": 0,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-5,1",
+      "q": -5,
+      "r": 1,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-3",
+      "q": -4,
+      "r": -3,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-2",
+      "q": -4,
+      "r": -2,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-4,-1",
+      "q": -4,
+      "r": -1,
+      "terrain": "grassland",
+      "jurisdiction": "P19B",
+      "radiation": null
+    },
+    {
+      "id": "-4,0",
+      "q": -4,
+      "r": 0,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-4,1",
+      "q": -4,
+      "r": 1,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-4,2",
+      "q": -4,
+      "r": 2,
+      "terrain": "grassland",
+      "jurisdiction": "P18C",
+      "radiation": null
+    },
+    {
+      "id": "-4,3",
+      "q": -4,
+      "r": 3,
+      "terrain": "grassland",
+      "jurisdiction": "P18C",
+      "radiation": null
+    },
+    {
+      "id": "-3,-4",
+      "q": -3,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-3,-3",
+      "q": -3,
+      "r": -3,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-3,-2",
+      "q": -3,
+      "r": -2,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-3,-1",
+      "q": -3,
+      "r": -1,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-3,0",
+      "q": -3,
+      "r": 0,
+      "terrain": "grassland",
+      "jurisdiction": "P18A",
+      "radiation": null
+    },
+    {
+      "id": "-3,1",
+      "q": -3,
+      "r": 1,
+      "terrain": "grassland",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-3,2",
+      "q": -3,
+      "r": 2,
+      "terrain": "grassland",
+      "jurisdiction": "P18C",
+      "radiation": null
+    },
+    {
+      "id": "-3,3",
+      "q": -3,
+      "r": 3,
+      "terrain": "grassland",
+      "jurisdiction": "P18C",
+      "radiation": null
+    },
+    {
+      "id": "-2,-4",
+      "q": -2,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-2,-3",
+      "q": -2,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P19A",
+      "radiation": null
+    },
+    {
+      "id": "-2,-2",
+      "q": -2,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "-2,-1",
+      "q": -2,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-2,0",
+      "q": -2,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-2,1",
+      "q": -2,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-2,2",
+      "q": -2,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P18C",
+      "radiation": null
+    },
+    {
+      "id": "-1,-3",
+      "q": -1,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "-1,-2",
+      "q": -1,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "-1,-1",
+      "q": -1,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-1,0",
+      "q": -1,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P18B",
+      "radiation": null
+    },
+    {
+      "id": "-1,1",
+      "q": -1,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P30B",
+      "radiation": null
+    },
+    {
+      "id": "0,-4",
+      "q": 0,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "0,-3",
+      "q": 0,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "0,-2",
+      "q": 0,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P19C",
+      "radiation": null
+    },
+    {
+      "id": "0,-1",
+      "q": 0,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P30B",
+      "radiation": null
+    },
+    {
+      "id": "0,0",
+      "q": 0,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P30B",
+      "radiation": null
+    },
+    {
+      "id": "0,1",
+      "q": 0,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P30B",
+      "radiation": null
+    },
+    {
+      "id": "0,2",
+      "q": 0,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30D",
+      "radiation": null
+    },
+    {
+      "id": "0,3",
+      "q": 0,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P30D",
+      "radiation": null
+    },
+    {
+      "id": "1,-4",
+      "q": 1,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P30A",
+      "radiation": null
+    },
+    {
+      "id": "1,-3",
+      "q": 1,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P30A",
+      "radiation": null
+    },
+    {
+      "id": "1,-2",
+      "q": 1,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P30A",
+      "radiation": null
+    },
+    {
+      "id": "1,-1",
+      "q": 1,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P30B",
+      "radiation": null
+    },
+    {
+      "id": "1,0",
+      "q": 1,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "1,1",
+      "q": 1,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "1,2",
+      "q": 1,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30D",
+      "radiation": null
+    },
+    {
+      "id": "1,3",
+      "q": 1,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P30D",
+      "radiation": null
+    },
+    {
+      "id": "2,-4",
+      "q": 2,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P30A",
+      "radiation": null
+    },
+    {
+      "id": "2,-3",
+      "q": 2,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P30A",
+      "radiation": null
+    },
+    {
+      "id": "2,-2",
+      "q": 2,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "2,-1",
+      "q": 2,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "2,0",
+      "q": 2,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "2,1",
+      "q": 2,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "2,2",
+      "q": 2,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30D",
+      "radiation": null
+    },
+    {
+      "id": "2,3",
+      "q": 2,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "3,-3",
+      "q": 3,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "3,-2",
+      "q": 3,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "3,-1",
+      "q": 3,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "3,0",
+      "q": 3,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "3,1",
+      "q": 3,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "3,2",
+      "q": 3,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "3,3",
+      "q": 3,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "4,-3",
+      "q": 4,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "4,-2",
+      "q": 4,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "4,-1",
+      "q": 4,
+      "r": -1,
+      "terrain": "ruins",
+      "jurisdiction": "P20A",
+      "radiation": null
+    },
+    {
+      "id": "4,0",
+      "q": 4,
+      "r": 0,
+      "terrain": "ruins",
+      "jurisdiction": "P20B",
+      "radiation": null
+    },
+    {
+      "id": "4,1",
+      "q": 4,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "4,2",
+      "q": 4,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "4,3",
+      "q": 4,
+      "r": 3,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "5,-4",
+      "q": 5,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P20C",
+      "radiation": null
+    },
+    {
+      "id": "5,-3",
+      "q": 5,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P20C",
+      "radiation": null
+    },
+    {
+      "id": "5,-2",
+      "q": 5,
+      "r": -2,
+      "terrain": "ruins",
+      "jurisdiction": "P20C",
+      "radiation": null
+    },
+    {
+      "id": "5,1",
+      "q": 5,
+      "r": 1,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "5,2",
+      "q": 5,
+      "r": 2,
+      "terrain": "ruins",
+      "jurisdiction": "P30C",
+      "radiation": null
+    },
+    {
+      "id": "6,-4",
+      "q": 6,
+      "r": -4,
+      "terrain": "grassland",
+      "jurisdiction": "P20C",
+      "radiation": null
+    },
+    {
+      "id": "6,-3",
+      "q": 6,
+      "r": -3,
+      "terrain": "ruins",
+      "jurisdiction": "P20C",
+      "radiation": null
+    }
+  ],
+  "edges": [
+    {
+      "a": "-4,-2",
+      "b": "-3,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,-2",
+      "b": "-4,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,-1",
+      "b": "-3,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,-1",
+      "b": "-4,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-4,0",
+      "b": "-3,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,-3",
+      "b": "-3,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,-2",
+      "b": "-2,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,-1",
+      "b": "-2,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,0",
+      "b": "-2,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,1",
+      "b": "-2,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,1",
+      "b": "-3,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-3,2",
+      "b": "-2,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,-2",
+      "b": "-1,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,-1",
+      "b": "-1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,0",
+      "b": "-1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-2,1",
+      "b": "-1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,-2",
+      "b": "0,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,-2",
+      "b": "-1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,-1",
+      "b": "0,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,-1",
+      "b": "-1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "-1,0",
+      "b": "0,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "0,-3",
+      "b": "1,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "0,-1",
+      "b": "1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "0,0",
+      "b": "1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,-3",
+      "b": "1,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,-2",
+      "b": "1,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,-1",
+      "b": "2,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,-1",
+      "b": "1,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,0",
+      "b": "2,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,0",
+      "b": "1,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,1",
+      "b": "1,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "1,2",
+      "b": "2,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "2,-1",
+      "b": "3,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "2,0",
+      "b": "3,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "2,2",
+      "b": "3,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,-2",
+      "b": "3,-1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,-1",
+      "b": "4,-2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,-1",
+      "b": "3,0",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,0",
+      "b": "3,1",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,1",
+      "b": "3,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "3,2",
+      "b": "4,2",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    },
+    {
+      "a": "4,-2",
+      "b": "5,-3",
+      "state": "open",
+      "landform": "land",
+      "facility": "road",
+      "cost": 1,
+      "effects": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "P18A",
+      "type": "town",
+      "tile": "-4,0"
+    },
+    {
+      "id": "P18B",
+      "type": "town",
+      "tile": "-2,0"
+    },
+    {
+      "id": "P18C",
+      "type": "town",
+      "tile": "-3,2"
+    },
+    {
+      "id": "P19A",
+      "type": "town",
+      "tile": "-3,-3"
+    },
+    {
+      "id": "P19B",
+      "type": "town",
+      "tile": "-4,-1"
+    },
+    {
+      "id": "P19C",
+      "type": "town",
+      "tile": "-1,-2"
+    },
+    {
+      "id": "P20A",
+      "type": "town",
+      "tile": "3,-2"
+    },
+    {
+      "id": "P20B",
+      "type": "town",
+      "tile": "2,0"
+    },
+    {
+      "id": "P20C",
+      "type": "town",
+      "tile": "5,-3"
+    },
+    {
+      "id": "P30A",
+      "type": "town",
+      "tile": "1,-3"
+    },
+    {
+      "id": "P30B",
+      "type": "town",
+      "tile": "0,0"
+    },
+    {
+      "id": "P30C",
+      "type": "town",
+      "tile": "4,2"
+    },
+    {
+      "id": "P30D",
+      "type": "town",
+      "tile": "1,2"
+    },
+    {
+      "id": "ROAD-TRADE-E-B",
+      "name": "锡安东向商路",
+      "type": "portal",
+      "tile": "-4,-1",
+      "route": "ROAD-TRADE-E"
+    },
+    {
+      "id": "ROAD-INDUSTRY-B",
+      "name": "莫哈维东北通路",
+      "type": "portal",
+      "tile": "1,2",
+      "route": "ROAD-INDUSTRY"
+    },
+    {
+      "id": "LM-CIT",
+      "name": "学院地下中枢／理工学院遗址",
+      "type": "landmark",
+      "tile": "3,-2",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "LM-OLDNORTH",
+      "name": "老北教堂联络点",
+      "type": "landmark",
+      "tile": "1,-3",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "LM-GOODNEIGHBOR",
+      "name": "芳邻镇旧城街区",
+      "type": "landmark",
+      "tile": "-2,0",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "LM-MINUTEMEN",
+      "name": "义勇军民兵议事中心",
+      "type": "landmark",
+      "tile": "-3,-3",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "LM-ACADIA",
+      "name": "阿卡迪亚设施",
+      "type": "landmark",
+      "tile": "5,-3",
+      "note": "原作地点素材的架空落点；建筑权限引用现行责任正文。"
+    },
+    {
+      "id": "F36-SAFEHOUSE-START",
+      "name": "铁路初始安全屋",
+      "type": "task",
+      "tile": "1,-3",
+      "note": "他方领土内隐藏设施，不是铁路地表首都；待定与可见权限沿种族规则。"
+    }
+  ]
+}
